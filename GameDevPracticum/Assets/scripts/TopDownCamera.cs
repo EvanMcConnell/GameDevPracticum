@@ -49,14 +49,29 @@ public class TopDownCamera : MonoBehaviour
     Vector3 previousMousePosition = Vector3.zero;
     float mouseOrbitInput, zoomInput;
 
+    public OrbitSettings orbit = new OrbitSettings();
+    public PositionSettings position = new PositionSettings();
+
     void Start()
     {
         //setting camera target
+        SetCameraTarget(target);
+
+        if (target)
+        {
+            MoveToTarget();
+        }
     }
 
     public void SetCameraTarget(Transform t)
     {
         //if we want to set a new target at runtime
+        target = t;
+
+        if(target == null)
+        {
+            Debug.LogError("Camera needs target");
+        }
     }
 
     void GetInput()
@@ -68,6 +83,11 @@ public class TopDownCamera : MonoBehaviour
     {
         //getting input
         //zooming
+        if (target)
+        {
+            LookAtTarget();
+            MoveToTarget();
+        }
     }
 
     void FixedUpdate()
@@ -80,11 +100,24 @@ public class TopDownCamera : MonoBehaviour
     void MoveToTarget()
     {
         //handeling getting our camera to is destination
+        destination = target.position;
+        destination += Quaternion.Euler(orbit.xRotation, orbit.yRotation, 0) * Vector3.back * position.distanceFromTarget;
+
+        if (position.smoothFollow)
+        {
+            transform.position = Vector3.SmoothDamp(transform.position, destination, ref camVelocity, position.smooth);
+        }
+        else
+        {
+            transform.position = destination;
+        }
     }
 
     void LookAtTarget()
     {
         //handling getting our camera to look at the target at all times
+        Quaternion targetRotation = Quaternion.LookRotation(target.position - transform.position);
+        transform.rotation = targetRotation;
     }
 
     void MouseOrbitTarget()
