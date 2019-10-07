@@ -83,11 +83,7 @@ public class TopDownCamera : MonoBehaviour
     {
         //getting input
         //zooming
-        if (target)
-        {
-            LookAtTarget();
-            MoveToTarget();
-        }
+        
     }
 
     void FixedUpdate()
@@ -95,6 +91,11 @@ public class TopDownCamera : MonoBehaviour
         //movetotarget
         //lookattarget
         //orbit
+        if (target)
+        {
+            LookAtTarget();
+            MoveToTarget();
+        }
     }
 
     void MoveToTarget()
