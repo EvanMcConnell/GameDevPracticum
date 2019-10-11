@@ -4,20 +4,34 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public int score;
     public Rigidbody rb;
     public float speed = 4;
     public Camera cam;
     Vector3 lookTarget = Vector3.forward;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        score = 0;
+        GameObject.Find("Score").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void OnTriggerEnter(Collider hit)
+    {
+        if(hit.gameObject.tag == "pick_me")
+        {
+            Destroy(hit.gameObject);
+            score++;
+            print(score);
+            GameObject.Find("Score").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
+        }
     }
 
     void FixedUpdate()
@@ -29,12 +43,11 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift))
         {
             horizontal = horizontal / 2;
-            vertical = vertical / 2;
         }
 
         Vector3 movement = new Vector3(horizontal, 0, vertical);
         rb.AddForce(movement * speed / Time.deltaTime);
-        print(movement);
+        //print(movement);
 
         /*Looking
         Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
@@ -49,5 +62,7 @@ public class PlayerMovement : MonoBehaviour
         }
         transform.LookAt(lookTarget);
         transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
+
+        
     }
 }

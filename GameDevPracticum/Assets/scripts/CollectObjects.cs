@@ -4,51 +4,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class CollectObjects : MonoBehaviour {
+public class Clock : MonoBehaviour {
 
-    // Use this for initialization
-
-    int score;
-    int time;
-
-    void Start () {
-        print ("Start method");
-        score = 0;
-        time = 0;
-    }
+    float time = 0.0f;
+    int seconds, minutes;
+    string milliseconds;
     
-    // Update is called once per frame
-    void Update () {
-        print ("Update method");
-		//Timer();
-    }
-
-
-    // void OnCollisionEnter (Collision coll)
-    // {
-    //      string nameOfObject = coll.collider.gameObject.name;
-    //      print ("Collided with "+ nameOfObject);
-
-
-    // }
-
-   /* void Timer(){
-        time += (int)Time.deltaTime;
-        GameObject.Find("Clock").GetComponent<Text>().text = ":" + time;
-    }*/
-
-    void OnControllerColliderHit(ControllerColliderHit hit)
+    void Update()
     {
-        if (hit.collider.gameObject.tag == "pick_me")
-        {
-            string nameOfObject = hit.collider.gameObject.name;
-            print ("Collided with "+ nameOfObject);
-            Destroy(hit.collider.gameObject);
-            score++;
-            print("Score: "+score);
-            if (score > 2) SceneManager.LoadScene("level2");
-            //please add level2 to teh Build Settings
-            GameObject.Find("userMessage").GetComponent<Text>().text  = "Score: " + score;
-        }
+        print(time);
+        time += Time.deltaTime;
+        milliseconds = time.ToString("F2");
+        seconds = (int)(time % 60);
+        minutes = (int)(time / 60);
+
+        gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = milliseconds;
     }
 }
