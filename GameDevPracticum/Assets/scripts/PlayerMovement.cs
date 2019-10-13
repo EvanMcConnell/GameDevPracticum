@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 4;
     public Camera cam;
     Vector3 lookTarget = Vector3.forward;
+    GameObject CollidedObject;
 
     // Start is called before the first frame update
     void Start()
@@ -23,14 +25,29 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    IEnumerator WaitForPickup()
+    {
+        yield return new WaitForSecondsRealtime((float)0.4);
+        Destroy(CollidedObject);
+    }
+
     void OnTriggerEnter(Collider hit)
     {
+        CollidedObject = hit.gameObject;
+
         if(hit.gameObject.tag == "pick_me")
         {
-            Destroy(hit.gameObject);
+            hit.gameObject.GetComponent<AudioSource>().enabled = true;
+            StartCoroutine(WaitForPickup());
+            
             score++;
-            print(score);
             GameObject.Find("Score").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
+            if(score == 9)
+            {
+                PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
+                SceneManager.LoadScene("End Scene");
+
+            }
         }
     }
 
