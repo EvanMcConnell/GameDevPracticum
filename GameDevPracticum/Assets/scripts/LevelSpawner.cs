@@ -5,13 +5,19 @@ using UnityEngine.AI;
 
 public class LevelSpawner : MonoBehaviour
 {
+    public 
     public GameObject Level;
-    //public NavMeshSurface NavMesh;
+    public NavMeshSurface NavMesh;
 
     void Start()
     {
         Instantiate(Level);
 
-        //NavMesh.BuildNavMesh();
+        NavMesh.BuildNavMesh();
+    }
+
+    IEnumerator WaitForLevel()
+    {
+        yield return new WaitUntil();
     }
 }
