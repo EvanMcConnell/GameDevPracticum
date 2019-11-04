@@ -436,13 +436,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6346453927724440272}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.456, y: -0.030000031, z: -1.164}
+  m_LocalRotation: {x: 0.08270822, y: -0, z: -0, w: 0.99657387}
+  m_LocalPosition: {x: 0.456, y: 0.556, z: -1.164}
   m_LocalScale: {x: 0.6, y: 1, z: 0.6}
   m_Children: []
   m_Father: {fileID: 8089746333468960566}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.489, y: 0, z: 0}
 --- !u!108 &7822865244830863974
 Light:
   m_ObjectHideFlags: 0
@@ -665,11 +665,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: prisoner_b_styperek@Swatting Bugs
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 6684a9375032dbc4fb84b7ce3829b8cf,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 28b6294599cc3234aa0630ac3edc1c2b, type: 2}
     - target: {fileID: -4216859302048453862, guid: 6684a9375032dbc4fb84b7ce3829b8cf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -725,6 +720,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 6684a9375032dbc4fb84b7ce3829b8cf,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 28b6294599cc3234aa0630ac3edc1c2b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6684a9375032dbc4fb84b7ce3829b8cf, type: 3}
 --- !u!1 &1606835164944475643 stripped

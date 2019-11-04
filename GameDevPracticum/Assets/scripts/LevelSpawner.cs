@@ -6,7 +6,6 @@ using UnityEngine.AI;
 
 public class LevelSpawner : MonoBehaviour
 {
-    public 
     public GameObject Level;
     public NavMeshSurface NM;
     public GameObject[] doors;
@@ -14,7 +13,6 @@ public class LevelSpawner : MonoBehaviour
     List<GameObject> doorSpots;
     int entranceChoice;
     int exitChoice;
-    public NavMeshSurface NavMesh;
 
     void Start()
     {
@@ -52,11 +50,5 @@ public class LevelSpawner : MonoBehaviour
         yield return new WaitForSeconds(1);
         NM.BuildNavMesh();
         print("NavMesh Built");
-        NavMesh.BuildNavMesh();
-    }
-
-    IEnumerator WaitForLevel()
-    {
-        yield return new WaitUntil();
     }
 }

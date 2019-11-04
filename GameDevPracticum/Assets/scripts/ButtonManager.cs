@@ -14,11 +14,11 @@ public class ButtonManager : MonoBehaviour
     public void StartButton()
     {
         PlayerPrefs.SetInt("Score", 0);
-        SceneManager.LoadScene("Level Generation");
+        SceneManager.LoadScene("Level");
     }
 
     public void NextLevelButton()
     {
-        SceneManager.LoadScene("Level Generation");
+        SceneManager.LoadScene("Level");
     }
 }

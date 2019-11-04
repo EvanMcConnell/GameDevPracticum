@@ -25,7 +25,7 @@ public class Clock : MonoBehaviour {
 
         
         //print(minutes+":"+seconds);
-        GameObject.Find("Clock").GetComponent<TMPro.TextMeshProUGUI>().text = seconds;
+        GameObject.Find("Timer Text").GetComponent<TMPro.TextMeshProUGUI>().text = seconds;
         if (time > (timeLimit - 2))
         {
                 //GameObject.Find("userMessage").GetComponent<Text>().text ="Time UP!";

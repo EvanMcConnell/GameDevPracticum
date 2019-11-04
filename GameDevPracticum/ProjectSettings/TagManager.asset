@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - door
   - SearchCone
+  - roof
+  - Exit
   layers:
   - Default
   - TransparentFX

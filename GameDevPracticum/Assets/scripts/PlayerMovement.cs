@@ -11,12 +11,13 @@ public class PlayerMovement : MonoBehaviour
     public Camera cam;
     Vector3 lookTarget = Vector3.forward;
     GameObject CollidedObject;
+    bool exitOpen = false;
 
     // Start is called before the first frame update
     void Start()
     {
         score = 0;
-        GameObject.Find("Score").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
+        GameObject.Find("Score Text").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
     }
 
     // Update is called once per frame
@@ -44,11 +45,10 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(WaitForPickup());
 
             score++;
-            GameObject.Find("Score").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
+            GameObject.Find("Score Text").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
             if (score == 9)
             {
-                PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
-                SceneManager.LoadScene("Level End Scene");
+                exitOpen = true;
 
             }
         }
@@ -64,6 +64,13 @@ public class PlayerMovement : MonoBehaviour
         {
             hit.gameObject.GetComponentInParent<EnemyMovement>().following = true;
             hit.gameObject.GetComponentInChildren<Light>().color = Color.red;
+        }
+
+        //Exit Trigger
+        if(hit.gameObject.tag == "Exit" && exitOpen == true)
+        {
+            PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
+            SceneManager.LoadScene("Level End Scene");
         }
     }
 
@@ -89,7 +96,5 @@ public class PlayerMovement : MonoBehaviour
         }
         transform.LookAt(lookTarget);
         transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);
-
-        
     }
 }
