@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
         //PickUp Trigger
         if (hit.gameObject.tag == "pick_me")
         {
+            hit.gameObject.GetComponent<MeshRenderer>().enabled = false;
             hit.gameObject.GetComponent<AudioSource>().enabled = true;
             StartCoroutine(WaitForPickup());
 

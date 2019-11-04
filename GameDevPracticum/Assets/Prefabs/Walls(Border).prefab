@@ -12,7 +12,11 @@ GameObject:
   - component: {fileID: 33994246869117272}
   - component: {fileID: 23203160775572934}
   - component: {fileID: 65645829404294238}
+<<<<<<< HEAD
   - component: {fileID: -2872044231810410719}
+=======
+  - component: {fileID: 3799421971701821220}
+>>>>>>> b2888400123c906380e68c2c7b66011707f5babe
   m_Layer: 0
   m_Name: Walls(Border)
   m_TagString: Untagged
@@ -93,14 +97,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &-2872044231810410719
 MonoBehaviour:
+=======
+--- !u!208 &3799421971701821220
+NavMeshObstacle:
+>>>>>>> b2888400123c906380e68c2c7b66011707f5babe
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000621414692272}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d07ce676d7afda4dabb3b0f7dd5e654, type: 3}
   m_Name: 
@@ -109,3 +119,13 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+=======
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+>>>>>>> b2888400123c906380e68c2c7b66011707f5babe

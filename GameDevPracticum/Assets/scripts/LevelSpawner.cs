@@ -6,18 +6,24 @@ using UnityEngine.AI;
 
 public class LevelSpawner : MonoBehaviour
 {
+    public 
     public GameObject Level;
+<<<<<<< HEAD
     public NavMeshSurface NM;
     public GameObject[] doors;
     GameObject current, exit, entrance, player;
     List<GameObject> doorSpots;
     int entranceChoice;
     int exitChoice;
+=======
+    public NavMeshSurface NavMesh;
+>>>>>>> b2888400123c906380e68c2c7b66011707f5babe
 
     void Start()
     {
         Instantiate(Level);
 
+<<<<<<< HEAD
         doorSpots = GameObject.FindGameObjectsWithTag("door").ToList();
         entranceChoice = Random.Range(0, doorSpots.Count -1);
         exitChoice = Random.Range(0, doorSpots.Count - 2);
@@ -50,5 +56,13 @@ public class LevelSpawner : MonoBehaviour
         yield return new WaitForSeconds(1);
         NM.BuildNavMesh();
         print("NavMesh Built");
+=======
+        NavMesh.BuildNavMesh();
+    }
+
+    IEnumerator WaitForLevel()
+    {
+        yield return new WaitUntil();
+>>>>>>> b2888400123c906380e68c2c7b66011707f5babe
     }
 }
