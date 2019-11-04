@@ -5,7 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - pick_me
-  - roof
+  - Enemy
+  - door
+  - SearchCone
   layers:
   - Default
   - TransparentFX

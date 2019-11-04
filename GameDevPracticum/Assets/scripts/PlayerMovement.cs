@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator WaitForPickup()
     {
+        CollidedObject.GetComponent<MeshRenderer>().enabled = false;
         yield return new WaitForSecondsRealtime((float)0.4);
         Destroy(CollidedObject);
     }
@@ -35,19 +36,33 @@ public class PlayerMovement : MonoBehaviour
     {
         CollidedObject = hit.gameObject;
 
-        if(hit.gameObject.tag == "pick_me")
+        //PickUp Trigger
+        if (hit.gameObject.tag == "pick_me")
         {
             hit.gameObject.GetComponent<AudioSource>().enabled = true;
             StartCoroutine(WaitForPickup());
-            
+
             score++;
             GameObject.Find("Score").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
-            if(score == 9)
+            if (score == 9)
             {
                 PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
-                SceneManager.LoadScene("End Scene");
+                SceneManager.LoadScene("Level End Scene");
 
             }
+        }
+
+        //Death Trigger
+        if (hit.gameObject.tag == "Enemy")
+        {
+            SceneManager.LoadScene("End Scene");
+        }
+
+        //Chase Trigger
+        if(hit.gameObject.tag == "SearchCone")
+        {
+            hit.gameObject.GetComponentInParent<EnemyMovement>().following = true;
+            hit.gameObject.GetComponentInChildren<Light>().color = Color.red;
         }
     }
 
@@ -64,12 +79,6 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 movement = new Vector3(horizontal, 0, vertical);
         rb.AddForce(movement * speed / Time.deltaTime);
-        //print(movement);
-
-        /*Looking
-        Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.z, lookDir.x) * Mathf.Rad2Deg;*/
 
         var ray = cam.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;

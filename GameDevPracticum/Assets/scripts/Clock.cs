@@ -18,13 +18,13 @@ public class Clock : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         time += Time.deltaTime;
-		print(time);
+		//print(time);
         seconds = (time%60).ToString("f2");
 		//seconds = Convert.ToString();
         minutes = ((int)time/60).ToString();
 
         
-        print(minutes+":"+seconds);
+        //print(minutes+":"+seconds);
         GameObject.Find("Clock").GetComponent<TMPro.TextMeshProUGUI>().text = seconds;
         if (time > (timeLimit - 2))
         {
@@ -34,8 +34,7 @@ public class Clock : MonoBehaviour {
         }
         if (time > timeLimit)
         {
-            SceneManager.LoadScene("level1");
-
+            //SceneManager.LoadScene("level1");
         }
         
         
