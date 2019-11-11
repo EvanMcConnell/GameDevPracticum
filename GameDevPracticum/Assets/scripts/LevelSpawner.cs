@@ -6,10 +6,10 @@ using UnityEngine.AI;
 
 public class LevelSpawner : MonoBehaviour
 {
-    public GameObject Level;
+    public GameObject Level, entrance;
     public NavMeshSurface NM;
     public GameObject[] doors;
-    GameObject current, exit, entrance, player;
+    GameObject current, exit, player;
     List<GameObject> doorSpots;
     int entranceChoice;
     int exitChoice;

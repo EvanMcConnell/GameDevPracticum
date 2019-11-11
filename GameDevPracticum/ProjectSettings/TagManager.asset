@@ -10,6 +10,7 @@ TagManager:
   - SearchCone
   - roof
   - Exit
+  - Level
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - HUD Elements
   - 
   - 
   - 

@@ -13,10 +13,13 @@ public class EnemyMovement : MonoBehaviour
     int stopCount = 0;
     Ray playerFinder;
     public Collider searchCone;
+    public Animator anim;
+    public AudioSource audioSourceIdle, audioSourceDying, audioSourceChasing;
 
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(waitingToSpeak());
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         nextStop = patrolRoute[stopCount];
         //print("stopCount: " + stopCount.ToString());
@@ -65,5 +68,11 @@ public class EnemyMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         turnable = true;
+    }
+
+    IEnumerator waitingToSpeak()
+    {
+        yield return new WaitForSeconds(Random.Range((float)0.1, 1));
+        audioSourceIdle.enabled = true;
     }
 }
