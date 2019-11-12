@@ -6,7 +6,7 @@ using UnityEngine.AI;
 
 public class LevelSpawner : MonoBehaviour
 {
-    public GameObject Level, entrance;
+    public GameObject spawnedLevel, Level, entrance;
     public NavMeshSurface NM;
     public GameObject[] doors;
     GameObject current, exit, player;
@@ -16,7 +16,9 @@ public class LevelSpawner : MonoBehaviour
 
     void Start()
     {
-        Instantiate(Level);
+        spawnedLevel = Instantiate(Level, new Vector3(0,0,0), Quaternion.identity);
+        spawnedLevel.transform.parent = transform;
+        spawnedLevel.transform.position = gameObject.transform.position;
 
         doorSpots = GameObject.FindGameObjectsWithTag("door").ToList();
         entranceChoice = Random.Range(0, doorSpots.Count -1);

@@ -10,7 +10,7 @@ public class SpawnObject : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		int rand = Random.Range(0, objects.Length);
-		spawnedObject = Instantiate(objects[rand], transform.position, Quaternion.identity);
-        spawnedObject.transform.parent = transform;
+            spawnedObject = Instantiate(objects[rand], transform.position, new Quaternion(0, 90, 0, 0));
+            spawnedObject.transform.parent = transform;
 	}
 }
