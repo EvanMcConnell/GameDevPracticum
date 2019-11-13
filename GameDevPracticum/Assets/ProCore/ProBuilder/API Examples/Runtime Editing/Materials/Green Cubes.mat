@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Red Cubes
+  m_Name: Green Cubes
   m_Shader: {fileID: 4800000, guid: b7eb90c4fea16d34ab4d7caa19b870a3, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
