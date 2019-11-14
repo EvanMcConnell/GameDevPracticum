@@ -23,6 +23,7 @@ public class LevelSpawner : MonoBehaviour
 
         if (firstLevelSpawned == false)
         {
+            print("spawned first level");
             spawnedLevel = Instantiate(Level, new Vector3(0, 0, 0), Quaternion.identity);
             spawnedLevel.transform.parent = transform;
             spawnedLevel.transform.position = gameObject.transform.position;
@@ -66,6 +67,7 @@ public class LevelSpawner : MonoBehaviour
 
         else
         {
+            print("spawned second level");
             //int nextLevelSpawnPointChoice = Random.Range(0, 2);
             nextLevelSpawnPointChoice = player.GetComponent<PlayerMovement>().nextLevelSpawnPointChoice;
             nextLevelSpawnPoint = nextLevelSpawnPoints[nextLevelSpawnPointChoice];
@@ -77,6 +79,8 @@ public class LevelSpawner : MonoBehaviour
 
 
             //doorSpots = GameObject.FindGameObjectsWithTag("door").ToList();
+            doorSpots = new List<GameObject>();
+            foreach(Transform child in transform) { print("another one added to door spots"); doorSpots.Add(child.gameObject);  }
 
             //entranceChoice = Random.Range(0, doorSpots.Count - 1);
             exitChoice = Random.Range(0, doorSpots.Count - 1);
@@ -94,10 +98,6 @@ public class LevelSpawner : MonoBehaviour
             {
                 n.tag = "Untagged";
             }
-
-
-            player = GameObject.FindGameObjectWithTag("Player");
-            player.transform.position = entrance.transform.position;
 
             current = doorSpots[exitChoice];
             current.tag = "Next Shop";

@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     GameObject entrance;
     public GameObject greenCubesContainer, exitText, LevelSpawner;
     public Animator entranceDoorAnim;
-    public bool firstEntranceSpawned = false;
+    public bool firstEntranceSpawned = false, nextLevelSpawned = false;
     public int nextLevelSpawnPointChoice;
 
     // Start is called before the first frame update
@@ -163,13 +163,15 @@ public class PlayerMovement : MonoBehaviour
         //Exit Trigger
         if(hit.gameObject.tag == "Exit" && exitOpen == true)
         {
+            hit.GetComponent<BoxCollider>()
+            print("exit hitted");
             PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
             GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Open", true);
             //hit.gameObject.
             //GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Open", true);
             //SceneManager.LoadScene("Level End Scene");
             nextLevelSpawnPointChoice = 0;
-            Instantiate(LevelSpawner);
+            if(nextLevelSpawned == false) { Instantiate(LevelSpawner); nextLevelSpawned = true; }
         }
 
 
