@@ -5,12 +5,16 @@ using UnityEngine;
 public class SpawnObject : MonoBehaviour {
 
 	public GameObject[] objects;
-    GameObject spawnedObject;
+    GameObject spawnedObject, player;
+    public bool entrance;
+    public Vector3 r, entrancePoint;
 
 	// Use this for initialization
 	void Start () {
+        player = GameObject.FindGameObjectWithTag("Player");
 		int rand = Random.Range(0, objects.Length);
-            spawnedObject = Instantiate(objects[rand], transform.position, new Quaternion(0, 90, 0, 0));
-            spawnedObject.transform.parent = transform;
+        if (entrance == true || player.GetComponent<PlayerMovement>().firstEntranceSpawned == false) { entrancePoint = GameObject.FindGameObjectWithTag("Entrance Point").GetComponent<SpawnObject>().r; spawnedObject = Instantiate(objects[rand], transform.position, Quaternion.Euler(entrancePoint)); }
+        else { spawnedObject = Instantiate(objects[rand], transform.position, Quaternion.Euler(r)); spawnedObject.transform.parent = transform; }
+        
 	}
 }

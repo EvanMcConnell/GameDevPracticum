@@ -13,6 +13,7 @@ public class LevelSpawner : MonoBehaviour
     List<GameObject> doorSpots;
     int entranceChoice;
     int exitChoice;
+    Vector3 entranceRotation, exitRotation;
 
     void Start()
     {
@@ -25,7 +26,9 @@ public class LevelSpawner : MonoBehaviour
         exitChoice = Random.Range(0, doorSpots.Count - 2);
 
         current = doorSpots[entranceChoice];
-        entrance = Instantiate(doors[1], current.transform.position, Quaternion.identity);
+        current.tag = "Entrance Point";
+        entranceRotation = current.GetComponent<SpawnObject>().r;
+        entrance = Instantiate(doors[1], current.transform.position, Quaternion.Euler(entranceRotation));
         entrance.transform.parent = transform;
         doorSpots.RemoveAt(entranceChoice);
 
@@ -33,7 +36,8 @@ public class LevelSpawner : MonoBehaviour
         player.transform.position = entrance.transform.position;
 
         current = doorSpots[exitChoice];
-        exit = Instantiate(doors[2], current.transform.position, Quaternion.identity);
+        exitRotation = current.GetComponent<SpawnObject>().r;
+        exit = Instantiate(doors[2], current.transform.position, Quaternion.Euler(exitRotation));
         exit.transform.parent = transform;
         doorSpots.RemoveAt(exitChoice);
 

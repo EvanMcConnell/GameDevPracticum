@@ -8,7 +8,7 @@ public class Clock : MonoBehaviour {
 
     // Use this for initialization
     float timeLimit = 120;
-    float time = 0.0f;
+    float time = 120f;
     string seconds, minutes;
     void Start () {
 

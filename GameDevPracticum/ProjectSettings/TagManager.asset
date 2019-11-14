@@ -11,6 +11,10 @@ TagManager:
   - roof
   - Exit
   - Level
+  - Entrance Door
+  - Exit Door
+  - Entrance
+  - Entrance Point
   layers:
   - Default
   - TransparentFX

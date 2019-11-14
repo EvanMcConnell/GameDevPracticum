@@ -8,7 +8,7 @@ public class EnemyMovement : MonoBehaviour
     public NavMeshAgent agent;
     Transform target, nextStop, lastPosition, currentPosition;
     public Transform[] patrolRoute;
-    public bool following = false;
+    public bool following = false, transitioning = false;
     bool turnable = true;
     int stopCount = 0;
     Ray playerFinder;

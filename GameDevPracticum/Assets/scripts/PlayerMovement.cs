@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     public GameObject[] redCubes, greenCubes, activeLives, deadLives;
     GameObject entrance;
     public GameObject greenCubesContainer, exitText;
+    public Animator entranceDoorAnim;
+    public bool firstEntranceSpawned = false;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime((float)0.4);
         entrance = GameObject.FindGameObjectWithTag("Level").GetComponent<LevelSpawner>().entrance;
+        firstEntranceSpawned = true;
     }
 
     IEnumerator WaitForPickup()
@@ -47,29 +50,41 @@ public class PlayerMovement : MonoBehaviour
         Destroy(CollidedObject);
     }
 
-    IEnumerator EnemyAnimationsHit(Collider hit)
+    IEnumerator EnemyAnimationsChaseStart(Collider hit)
     {
+        print("starting chase");
+        hit.gameObject.GetComponentInParent<EnemyMovement>().transitioning = true;
         Animator enemyAnim = hit.gameObject.GetComponentInParent<EnemyMovement>().anim;
         hit.gameObject.GetComponentInParent<NavMeshAgent>().speed = 0;
         hit.gameObject.GetComponentInParent<Light>().color = Color.red;
         enemyAnim.SetBool("isDropping", true);
         yield return new WaitForSecondsRealtime((float)2.9);
         enemyAnim.SetBool("isFollowing", true);
+        enemyAnim.SetBool("isDropping", false);
         hit.gameObject.GetComponentInParent<EnemyMovement>().following = true;
         hit.gameObject.GetComponentInParent<NavMeshAgent>().speed = 5;
+        hit.gameObject.GetComponentInParent<EnemyMovement>().transitioning = false;
     }
 
-    IEnumerator EnemyAnimationsTriggered(GameObject n)
+    IEnumerator EnemyAnimationsKilledPlayer(GameObject n, int i)
     {
+        print("player slain");
+        if (n.gameObject.GetComponentInChildren<EnemyMovement>().transitioning == true) { print("waiting for transition");  yield return new WaitUntil(() => n.gameObject.GetComponentInChildren<EnemyMovement>().transitioning == false); }
+        n.GetComponent<EnemyMovement>().following = false;
         Animator enemyAnim = n.gameObject.GetComponentInChildren<EnemyMovement>().anim;
         n.gameObject.GetComponentInChildren<NavMeshAgent>().speed = 0.4f;
         n.gameObject.GetComponent<Light>().color = Color.green;
         enemyAnim.SetBool("isFollowing", false);
         enemyAnim.SetBool("isDropping", false);
+        enemyAnim.SetBool("isReset", true);
+        
+
         n.gameObject.GetComponentInChildren<SphereCollider>().enabled = false;
 
         yield return new WaitForSecondsRealtime(2);
+        enemyAnim.SetBool("isReset", false);
         n.gameObject.GetComponentInChildren<SphereCollider>().enabled = true;
+        
     }
 
     void OnTriggerEnter(Collider hit)
@@ -98,6 +113,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+
         //Death Trigger
         if (hit.gameObject.tag == "Enemy")
         {
@@ -112,9 +128,7 @@ public class PlayerMovement : MonoBehaviour
                 foreach (GameObject n in GameObject.FindGameObjectsWithTag("Enemy"))
                 {
                     i++;
-                    
-                    n.GetComponent<EnemyMovement>().following = false;
-                    StartCoroutine(EnemyAnimationsTriggered(n));
+                    StartCoroutine(EnemyAnimationsKilledPlayer(n, i));
                 }
 
                 print("no of enemies: " + i);
@@ -128,17 +142,29 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+
         //Chase Trigger
         if(hit.gameObject.tag == "SearchCone" && hit.gameObject.GetComponentInParent<EnemyMovement>().following == false)
         {
-            StartCoroutine(EnemyAnimationsHit(hit));
+            StartCoroutine(EnemyAnimationsChaseStart(hit));
         }
+
 
         //Exit Trigger
         if(hit.gameObject.tag == "Exit" && exitOpen == true)
         {
             PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
-            SceneManager.LoadScene("Level End Scene");
+            GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Open", true);
+            GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Open", true);
+            //SceneManager.LoadScene("Level End Scene");
+        }
+
+
+        //Entrance Trigger
+        if (hit.gameObject.tag == "Entrance")
+        {
+            print("entrance");
+            GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Close", true);
         }
     }
 
