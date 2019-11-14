@@ -15,6 +15,10 @@ TagManager:
   - Exit Door
   - Entrance
   - Entrance Point
+  - Shop Exit
+  - Next Shop
+  - Next Level Spawn Point
+  - Next Level Entrance Point
   layers:
   - Default
   - TransparentFX

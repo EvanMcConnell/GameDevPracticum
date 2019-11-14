@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     {
         lives = 3;
         print(lives);
-        score = 0;
+        score = 8;
         GameObject.Find("Score Text").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
         StartCoroutine(WaitForLevel());
     }
@@ -94,11 +94,13 @@ public class PlayerMovement : MonoBehaviour
         //PickUp Trigger
         if (hit.gameObject.tag == "pick_me")
         {
+
             hit.gameObject.GetComponent<MeshRenderer>().enabled = false;
             hit.gameObject.GetComponent<AudioSource>().enabled = true;
             StartCoroutine(WaitForPickup());
 
             score++;
+            print(score);
 
             redCubes[score - 1].gameObject.SetActive(false);
             greenCubes[score - 1].gameObject.SetActive(true);
@@ -111,6 +113,14 @@ public class PlayerMovement : MonoBehaviour
                 exitText.SetActive(true);
 
             }
+        }
+
+
+        //Shop Exit Trigger
+        if(hit.gameObject.tag == "Shop Exit")
+        {
+            hit.gameObject.GetComponentInParent<Animator>().SetBool("Close", false);
+            hit.gameObject.GetComponentInParent<Animator>().SetBool("Open", true);
         }
 
 
@@ -155,7 +165,8 @@ public class PlayerMovement : MonoBehaviour
         {
             PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
             GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Open", true);
-            GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Open", true);
+            //hit.gameObject.
+            //GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Open", true);
             //SceneManager.LoadScene("Level End Scene");
         }
 
@@ -165,6 +176,7 @@ public class PlayerMovement : MonoBehaviour
         {
             print("entrance");
             GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Close", true);
+            GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Open", false);
         }
     }
 

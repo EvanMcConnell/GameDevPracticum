@@ -1382,6 +1382,11 @@ PrefabInstance:
       propertyPath: speed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7867176913795296883, guid: f316778a6795fc548b5e557ceaff27d3,
+        type: 3}
+      propertyPath: score
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7867176913795296882, guid: f316778a6795fc548b5e557ceaff27d3,
         type: 3}
       propertyPath: m_Constraints
