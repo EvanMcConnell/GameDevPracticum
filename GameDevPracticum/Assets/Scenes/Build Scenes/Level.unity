@@ -1387,6 +1387,11 @@ PrefabInstance:
       propertyPath: score
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7867176913795296883, guid: f316778a6795fc548b5e557ceaff27d3,
+        type: 3}
+      propertyPath: LevelSpawner
+      value: 
+      objectReference: {fileID: 1714213338}
     - target: {fileID: 7867176913795296882, guid: f316778a6795fc548b5e557ceaff27d3,
         type: 3}
       propertyPath: m_Constraints
@@ -4707,6 +4712,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652289600}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1714213338 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3441293840567134790, guid: 0bd68d94c81225c43a8c552ea54ef4a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3441293839245365511}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1748432241
 GameObject:
   m_ObjectHideFlags: 0

@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 5035478529715350246}
   - component: {fileID: 592049674048598717}
   m_Layer: 0
-  m_Name: Spawn Point (43)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -601,7 +601,7 @@ GameObject:
   - component: {fileID: 1930969957604069488}
   - component: {fileID: 8567165954326456282}
   m_Layer: 0
-  m_Name: Spawn Point (118)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -691,7 +691,7 @@ GameObject:
   - component: {fileID: 7130336949116398614}
   - component: {fileID: 6857293464930810780}
   m_Layer: 0
-  m_Name: Spawn Point (108)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 1680190873702106239}
   - component: {fileID: 6730334177529573982}
   m_Layer: 0
-  m_Name: Spawn Point (98)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 3759615886162766713}
   - component: {fileID: 8608834097623704390}
   m_Layer: 0
-  m_Name: Spawn Point (7)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1259,7 +1259,7 @@ GameObject:
   - component: {fileID: 3855064662039830081}
   - component: {fileID: 4109260442628435449}
   m_Layer: 0
-  m_Name: Spawn Point (53)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1399,7 +1399,7 @@ GameObject:
   - component: {fileID: 4126628523681194913}
   - component: {fileID: 5921153812268043018}
   m_Layer: 0
-  m_Name: Spawn Point (88)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1539,7 +1539,7 @@ GameObject:
   - component: {fileID: 3145623866035617838}
   - component: {fileID: 621114119686902440}
   m_Layer: 0
-  m_Name: Spawn Point (80)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1635,7 +1635,7 @@ GameObject:
   - component: {fileID: 5475122773095072962}
   - component: {fileID: 6116448132354115533}
   m_Layer: 0
-  m_Name: Spawn Point (70)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1683,7 +1683,7 @@ GameObject:
   - component: {fileID: 2666067019833018265}
   - component: {fileID: 8240841348479113919}
   m_Layer: 0
-  m_Name: Spawn Point (63)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7713,7 +7713,7 @@ GameObject:
   - component: {fileID: 7084964623636560635}
   - component: {fileID: 4796858141149778808}
   m_Layer: 0
-  m_Name: Spawn Point (27)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -7905,7 +7905,7 @@ GameObject:
   - component: {fileID: 2357317652870732085}
   - component: {fileID: 3646565748772556878}
   m_Layer: 0
-  m_Name: Spawn Point (17)
+  m_Name: Door Spot
   m_TagString: door
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0

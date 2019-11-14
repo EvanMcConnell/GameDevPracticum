@@ -11,14 +11,14 @@ public class LevelSpawner : MonoBehaviour
     public GameObject[] doors;
     GameObject current, exit, player, nextLevelSpawnPoint;
     List<GameObject> doorSpots;
-    int entranceChoice;
-    int exitChoice;
+    int entranceChoice, exitChoice, nextLevelSpawnPointChoice;
     public GameObject[] nextLevelSpawnPoints;
     Vector3 entranceRotation, exitRotation;
     bool firstLevelSpawned;
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         firstLevelSpawned = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().firstEntranceSpawned;
 
         if (firstLevelSpawned == false)
@@ -43,7 +43,6 @@ public class LevelSpawner : MonoBehaviour
                 n.tag = "Untagged";
             }
 
-            player = GameObject.FindGameObjectWithTag("Player");
             player.transform.position = entrance.transform.position;
 
             current = doorSpots[exitChoice];
@@ -67,16 +66,21 @@ public class LevelSpawner : MonoBehaviour
 
         else
         {
-            int nextLevelSpawnPointChoice = Random.Range(0, 2);
+            //int nextLevelSpawnPointChoice = Random.Range(0, 2);
+            nextLevelSpawnPointChoice = player.GetComponent<PlayerMovement>().nextLevelSpawnPointChoice;
             nextLevelSpawnPoint = nextLevelSpawnPoints[nextLevelSpawnPointChoice];
+
 
             spawnedLevel = Instantiate(Level, nextLevelSpawnPoint.transform.position, Quaternion.identity);
             spawnedLevel.transform.parent = transform;
             spawnedLevel.transform.position = gameObject.transform.position;
 
-            doorSpots = GameObject.FindGameObjectsWithTag("door").ToList();
+
+            //doorSpots = GameObject.FindGameObjectsWithTag("door").ToList();
+
             //entranceChoice = Random.Range(0, doorSpots.Count - 1);
-            exitChoice = Random.Range(0, doorSpots.Count - 2);
+            exitChoice = Random.Range(0, doorSpots.Count - 1);
+
 
             current = GameObject.FindGameObjectWithTag("Next Level Entrance Point");
             current.tag = "Entrance Point";
@@ -85,10 +89,12 @@ public class LevelSpawner : MonoBehaviour
             entrance.transform.parent = transform;
             doorSpots.RemoveAt(entranceChoice);
 
+
             foreach (GameObject n in GameObject.FindGameObjectsWithTag("Next Level Spawn Point"))
             {
                 n.tag = "Untagged";
             }
+
 
             player = GameObject.FindGameObjectWithTag("Player");
             player.transform.position = entrance.transform.position;

@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
@@ -16,9 +15,10 @@ public class PlayerMovement : MonoBehaviour
     public AudioClip idle, dying, chasing;
     public GameObject[] redCubes, greenCubes, activeLives, deadLives;
     GameObject entrance;
-    public GameObject greenCubesContainer, exitText;
+    public GameObject greenCubesContainer, exitText, LevelSpawner;
     public Animator entranceDoorAnim;
     public bool firstEntranceSpawned = false;
+    public int nextLevelSpawnPointChoice;
 
     // Start is called before the first frame update
     void Start()
@@ -168,6 +168,8 @@ public class PlayerMovement : MonoBehaviour
             //hit.gameObject.
             //GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Open", true);
             //SceneManager.LoadScene("Level End Scene");
+            nextLevelSpawnPointChoice = 0;
+            Instantiate(LevelSpawner);
         }
 
 
