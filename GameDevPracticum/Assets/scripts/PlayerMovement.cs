@@ -163,7 +163,7 @@ public class PlayerMovement : MonoBehaviour
         //Exit Trigger
         if(hit.gameObject.tag == "Exit" && exitOpen == true)
         {
-            hit.GetComponent<BoxCollider>()
+            hit.GetComponent<BoxCollider>().enabled = false;
             print("exit hitted");
             PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
             GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Open", true);

@@ -19,6 +19,8 @@ TagManager:
   - Next Shop
   - Next Level Spawn Point
   - Next Level Entrance Point
+  - Inner Wall
+  - NavMesh
   layers:
   - Default
   - TransparentFX
