@@ -18,9 +18,14 @@ public class LevelSpawner : MonoBehaviour
 
     void Start()
     {
+        //Find out if the first level has been spawned
         player = GameObject.FindGameObjectWithTag("Player");
         firstLevelSpawned = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().firstEntranceSpawned;
+        print("firstLevelSpawned:" + firstLevelSpawned);
 
+        
+
+        //If this is the first Level
         if (firstLevelSpawned == false)
         {
             print("spawned first level");
@@ -65,6 +70,8 @@ public class LevelSpawner : MonoBehaviour
         }
 
 
+
+        //If this is a
         else
         {
             print("spawned second level");
@@ -74,6 +81,7 @@ public class LevelSpawner : MonoBehaviour
 
 
             spawnedLevel = Instantiate(Level, nextLevelSpawnPoint.transform.position, Quaternion.identity);
+            spawnedLevel.name = "Next Level";
             spawnedLevel.transform.parent = transform;
             spawnedLevel.transform.position = gameObject.transform.position;
 
@@ -88,6 +96,7 @@ public class LevelSpawner : MonoBehaviour
 
             current = GameObject.FindGameObjectWithTag("Next Level Entrance Point");
             current.tag = "Entrance Point";
+            current.name = "Next Entrance";
             entranceRotation = current.GetComponent<SpawnObject>().r;
             entrance = Instantiate(doors[1], current.transform.position, Quaternion.Euler(entranceRotation));
             entrance.transform.parent = transform;
@@ -101,6 +110,7 @@ public class LevelSpawner : MonoBehaviour
 
             current = doorSpots[exitChoice];
             current.tag = "Next Shop";
+            current.name = "Next Exit";
             exitRotation = current.GetComponent<SpawnObject>().r;
             exit = Instantiate(doors[2], current.transform.position, Quaternion.Euler(exitRotation));
             exit.transform.parent = transform;

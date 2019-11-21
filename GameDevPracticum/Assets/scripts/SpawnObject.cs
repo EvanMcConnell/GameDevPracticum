@@ -16,7 +16,7 @@ public class SpawnObject : MonoBehaviour {
         firstEntrance = player.GetComponent<PlayerMovement>().firstEntranceSpawned;
 		int rand = Random.Range(0, objects.Length);
         if (entrance == true && firstEntrance == true) { entrancePoint = GameObject.FindGameObjectWithTag("Entrance Point").GetComponent<SpawnObject>().r; spawnedObject = Instantiate(objects[rand], transform.position, Quaternion.Euler(entrancePoint)); }
-        else { spawnedObject = Instantiate(objects[rand], transform.position, Quaternion.Euler(r)); spawnedObject.transform.parent = transform; }
+        else if (entrance != true) { spawnedObject = Instantiate(objects[rand], transform.position, Quaternion.Euler(r)); spawnedObject.transform.parent = transform; }
         
 	}
 }

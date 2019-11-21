@@ -21,6 +21,7 @@ TagManager:
   - Next Level Entrance Point
   - Inner Wall
   - NavMesh
+  - Trash
   layers:
   - Default
   - TransparentFX

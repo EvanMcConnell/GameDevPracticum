@@ -167,11 +167,12 @@ public class PlayerMovement : MonoBehaviour
             print("exit hitted");
             PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
             GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Open", true);
+            GameObject.FindGameObjectWithTag("Entrance").tag = "Trash";
             //hit.gameObject.
             //GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Open", true);
             //SceneManager.LoadScene("Level End Scene");
             nextLevelSpawnPointChoice = 0;
-            if(nextLevelSpawned == false) { Instantiate(LevelSpawner); nextLevelSpawned = true; }
+            if(nextLevelSpawned == false) { Instantiate(LevelSpawner, GameObject.FindGameObjectWithTag("Next Level Spawn Point").transform); nextLevelSpawned = true; }
         }
 
 
