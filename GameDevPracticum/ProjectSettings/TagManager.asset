@@ -21,12 +21,10 @@ TagManager:
   - Next Level Entrance Point
   - Inner Wall
   - NavMesh
-<<<<<<< HEAD
   - NPC Sprite
   - NPC Character
-=======
   - Trash
->>>>>>> e62443787f810ffe08745a9da39e21cd528fa964
+  - Trash
   layers:
   - Default
   - TransparentFX
