@@ -15,7 +15,8 @@ public class PlayerMovement : MonoBehaviour
     public AudioClip idle, dying, chasing;
     public GameObject[] redCubes, greenCubes, activeLives, deadLives;
     GameObject entrance;
-    public GameObject greenCubesContainer, exitText, LevelSpawner;
+    public GameObject greenCubesContainer, exitText, LevelSpawner, NPCSprite;
+    string scoreText;
     public Animator entranceDoorAnim;
     public bool firstEntranceSpawned = false, nextLevelSpawned = false;
     public int nextLevelSpawnPointChoice;
@@ -25,9 +26,11 @@ public class PlayerMovement : MonoBehaviour
     {
         lives = 3;
         print(lives);
-        score = 8;
-        GameObject.Find("Score Text").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
+        score = 0;
+        scoreText = GameObject.Find("Score Text").GetComponent<TMPro.TextMeshProUGUI>().text;
+        scoreText = score.ToString();
         StartCoroutine(WaitForLevel());
+        NPCSprite = GameObject.FindGameObjectWithTag("NPC Sprite");
     }
 
     // Update is called once per frame
@@ -109,7 +112,7 @@ public class PlayerMovement : MonoBehaviour
             if (score == 9)
             {
                 exitOpen = true;
-                greenCubesContainer.SetActive(false);
+                //greenCubesContainer.SetActive(false);
                 exitText.SetActive(true);
 
             }
@@ -160,6 +163,18 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
+
+        //Dialogue Trigger
+        if(hit.gameObject.tag == "NPC Character")
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                NPCSprite.SetActive(true);
+            }
+        }
+
+
+
         //Exit Trigger
         if(hit.gameObject.tag == "Exit" && exitOpen == true)
         {
@@ -167,11 +182,12 @@ public class PlayerMovement : MonoBehaviour
             print("exit hitted");
             PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
             GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Open", true);
+            GameObject.FindGameObjectWithTag("Entrance").tag = "Trash";
             //hit.gameObject.
             //GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Open", true);
             //SceneManager.LoadScene("Level End Scene");
             nextLevelSpawnPointChoice = 0;
-            if(nextLevelSpawned == false) { Instantiate(LevelSpawner); nextLevelSpawned = true; }
+            if(nextLevelSpawned == false) { Instantiate(LevelSpawner, GameObject.FindGameObjectWithTag("Next Level Spawn Point").transform); nextLevelSpawned = true; }
         }
 
 
