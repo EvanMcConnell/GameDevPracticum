@@ -24,7 +24,8 @@ TagManager:
   - NPC Sprite
   - NPC Character
   - Trash
-  - Trash
+  - NPC Text
+  - HUD
   layers:
   - Default
   - TransparentFX

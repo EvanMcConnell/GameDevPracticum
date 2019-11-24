@@ -10,15 +10,14 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 4;
     public Camera cam;
     Vector3 lookTarget = Vector3.forward;
-    GameObject CollidedObject;
+    GameObject CollidedObject, entrance;
     bool exitOpen = false;
     public AudioClip idle, dying, chasing;
     public GameObject[] redCubes, greenCubes, activeLives, deadLives;
-    GameObject entrance;
     public GameObject greenCubesContainer, exitText, LevelSpawner, NPCSprite;
     string scoreText;
     public Animator entranceDoorAnim;
-    public bool firstEntranceSpawned = false, nextLevelSpawned = false;
+    public bool firstEntranceSpawned = false, nextLevelSpawned = false, isWithNPC = false;
     public int nextLevelSpawnPointChoice;
 
     // Start is called before the first frame update
@@ -30,13 +29,6 @@ public class PlayerMovement : MonoBehaviour
         scoreText = GameObject.Find("Score Text").GetComponent<TMPro.TextMeshProUGUI>().text;
         scoreText = score.ToString();
         StartCoroutine(WaitForLevel());
-        NPCSprite = GameObject.FindGameObjectWithTag("NPC Sprite");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     IEnumerator WaitForLevel()
@@ -167,10 +159,7 @@ public class PlayerMovement : MonoBehaviour
         //Dialogue Trigger
         if(hit.gameObject.tag == "NPC Character")
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                NPCSprite.SetActive(true);
-            }
+            isWithNPC = true;
         }
 
 
@@ -199,6 +188,19 @@ public class PlayerMovement : MonoBehaviour
             GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Open", false);
         }
     }
+
+
+
+    void OnTriggerExit(Collider exit)
+    {
+        if(exit.gameObject.tag == "NPC Character")
+        {
+            isWithNPC = false;
+        }
+    }
+
+
+
 
     void FixedUpdate()
     {
