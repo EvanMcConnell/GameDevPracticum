@@ -39,8 +39,9 @@ public class NPCHandler : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 gameObject.GetComponent<SpriteRenderer>().enabled = !gameObject.GetComponent<SpriteRenderer>().enabled;
-                if (npcText.enabled == true) { npcText.enabled = false; }
-                else { npcText.enabled = false; }
+                /*if (npcText.enabled == true) { npcText.enabled = false; }
+                else { npcText.enabled = false; }*/
+                npcText.enabled = !npcText.enabled;
                 phraseChoice = Random.Range(0, phrases.Length);
 
                 if(npcText.enabled == true)
@@ -51,7 +52,7 @@ public class NPCHandler : MonoBehaviour
                 foreach(GameObject n in hud) { n.SetActive(false); }
             }
         }
-        else { 
+        else {
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
             npcText.enabled = false;
             foreach (GameObject n in hud) { n.SetActive(true); }
