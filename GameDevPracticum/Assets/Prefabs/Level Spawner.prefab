@@ -112,3 +112,5 @@ MonoBehaviour:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
   - {fileID: 3616867609841714650, guid: 8d1bbec36184fc847819579d649f061a, type: 3}
   - {fileID: 741110821303852021, guid: 81c0c94aedb68b84a8b31f7725b9b0af, type: 3}
+  - {fileID: 3616867609841714650, guid: fe0250df1da08034a88b051450f8b6a3, type: 3}
+  nextLevelSpawnPoints: []

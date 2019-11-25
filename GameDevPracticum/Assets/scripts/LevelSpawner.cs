@@ -40,7 +40,7 @@ public class LevelSpawner : MonoBehaviour
             current = doorSpots[entranceChoice];
             current.tag = "Entrance Point";
             entranceRotation = current.GetComponent<SpawnObject>().r;
-            entrance = Instantiate(doors[1], current.transform.position, Quaternion.Euler(entranceRotation));
+            entrance = Instantiate(doors[3], current.transform.position, Quaternion.Euler(entranceRotation));
             entrance.transform.parent = transform;
             doorSpots.RemoveAt(entranceChoice);
 
@@ -80,21 +80,22 @@ public class LevelSpawner : MonoBehaviour
             nextLevelSpawnPoint = nextLevelSpawnPoints[nextLevelSpawnPointChoice];
 
 
-            spawnedLevel = Instantiate(Level, nextLevelSpawnPoint.transform.position, Quaternion.identity);
+            /*spawnedLevel = Instantiate(Level, nextLevelSpawnPoint.transform.position, Quaternion.identity);
             spawnedLevel.name = "Next Level";
             spawnedLevel.transform.parent = transform;
-            spawnedLevel.transform.position = gameObject.transform.position;
+            spawnedLevel.transform.position = gameObject.transform.position;*/
 
 
             //doorSpots = GameObject.FindGameObjectsWithTag("door").ToList();
             doorSpots = new List<GameObject>();
             foreach(Transform child in transform) { print("another one added to door spots"); doorSpots.Add(child.gameObject);  }
 
-            //entranceChoice = Random.Range(0, doorSpots.Count - 1);
+
             exitChoice = Random.Range(0, doorSpots.Count - 1);
 
 
             current = GameObject.FindGameObjectWithTag("Next Level Entrance Point");
+            GameObject.FindGameObjectWithTag("Entrance Point").tag = "Trash";
             current.tag = "Entrance Point";
             current.name = "Next Entrance";
             entranceRotation = current.GetComponent<SpawnObject>().r;

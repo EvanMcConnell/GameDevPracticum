@@ -45,9 +45,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &435089252432385192
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,9 +93,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &494280997205476551
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,9 +141,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &597767810905953036
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,9 +189,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
+--- !u!1 &665611441996121585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558375669901297852}
+  - component: {fileID: 3104376867549518862}
+  m_Layer: 0
+  m_Name: Open Trigger
+  m_TagString: Shop Exit
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1558375669901297852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665611441996121585}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.00000068545336}
+  m_LocalPosition: {x: -0, y: 0.685, z: -1.42}
+  m_LocalScale: {x: 1.6114016, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2704145806967117770}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3104376867549518862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665611441996121585}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1523430832699311115
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,9 +373,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1727007444601526713
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,9 +421,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1846001039267135337
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,9 +469,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1904455560392566128
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,9 +609,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2083373805474667794
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,9 +657,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2393552302511873677
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,9 +705,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2406404684537557572
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,9 +753,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!95 &3322151439520060074
 Animator:
   serializedVersion: 3
@@ -802,9 +846,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &3067381056153121459
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,9 +1025,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &3067381057408089876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,7 +1051,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3067381057408089876}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1050,7 +1094,7 @@ Transform:
   - {fileID: 4359778929062837552}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3710437808753225939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,9 +1324,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &4631289869831271037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,9 +1372,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &4800702325159366038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,9 +1420,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &4938277616893851211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,9 +1468,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &5363808143410744310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,9 +1516,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &5388676809995612110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,9 +1564,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &5449756847651461048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,9 +1704,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &5690320428761865226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,6 +1720,7 @@ GameObject:
   - component: {fileID: 8961490406434931405}
   - component: {fileID: 5974566972139744093}
   - component: {fileID: 2167035760743821960}
+  - component: {fileID: 2601974994248330149}
   m_Layer: 0
   m_Name: Shopman
   m_TagString: NPC Character
@@ -1770,6 +1815,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6, y: 2, z: 6}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &2601974994248330149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5690320428761865226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb742bc97643ef469c920ee888344f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  phrases:
+  - raw chicken is the best!
+  - can i make that a large please
+  - 'Warning: wearing a cape does not grant you the ability of flight'
+  player: {fileID: 0}
+  hud: []
+  npcText: {fileID: 0}
+  nearPlayer: 0
+  dialoguePrompt: {fileID: 0}
 --- !u!1 &5798300427337816858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,9 +1973,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &6413957001618295263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,9 +2021,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &6619862672938852781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,9 +2069,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &6966255476925167682
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,9 +2117,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!64 &332001570631889905
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2172,9 +2238,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &7114027117612933794
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,9 +2286,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &7297705799664419165
 GameObject:
   m_ObjectHideFlags: 0
@@ -2268,9 +2334,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &7748462551858445828
 GameObject:
   m_ObjectHideFlags: 0
@@ -2316,9 +2382,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &7777680145885631532
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,9 +2522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &7837367069715814837
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,9 +2570,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &8358187689859210179
 GameObject:
   m_ObjectHideFlags: 0
@@ -2552,9 +2618,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &8802751987595273161
 GameObject:
   m_ObjectHideFlags: 0
@@ -2600,9 +2666,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &8841498760825636490
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,9 +2758,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
-  entrance: 0
+  isEntrance: 0
   r: {x: 0, y: 0, z: 0}
-  entrancePoint: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &9091793344348249491
 GameObject:
   m_ObjectHideFlags: 0
@@ -2901,12 +2967,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91db971f356a07d42b095b71e57a75af, type: 3}
---- !u!1 &2707656029220617466 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1174561656411244, guid: 91db971f356a07d42b095b71e57a75af,
-    type: 3}
-  m_PrefabInstance: {fileID: 2708821244424202390}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2707077943086061694 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1921508391727336, guid: 91db971f356a07d42b095b71e57a75af,
@@ -2922,6 +2982,12 @@ Transform:
 --- !u!1 &2707666220302281020 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1190243862479274, guid: 91db971f356a07d42b095b71e57a75af,
+    type: 3}
+  m_PrefabInstance: {fileID: 2708821244424202390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2707656029220617466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1174561656411244, guid: 91db971f356a07d42b095b71e57a75af,
     type: 3}
   m_PrefabInstance: {fileID: 2708821244424202390}
   m_PrefabAsset: {fileID: 0}
@@ -3039,9 +3105,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91db971f356a07d42b095b71e57a75af, type: 3}
---- !u!4 &7015564521299868717 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4684852159627100, guid: 91db971f356a07d42b095b71e57a75af,
+--- !u!1 &7010066519328151325 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1174561656411244, guid: 91db971f356a07d42b095b71e57a75af,
     type: 3}
   m_PrefabInstance: {fileID: 7011240516186915697}
   m_PrefabAsset: {fileID: 0}
@@ -3051,9 +3117,9 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7011240516186915697}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7010066519328151325 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1174561656411244, guid: 91db971f356a07d42b095b71e57a75af,
+--- !u!4 &7015564521299868717 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4684852159627100, guid: 91db971f356a07d42b095b71e57a75af,
     type: 3}
   m_PrefabInstance: {fileID: 7011240516186915697}
   m_PrefabAsset: {fileID: 0}

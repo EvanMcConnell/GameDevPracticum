@@ -26,6 +26,8 @@ TagManager:
   - Trash
   - NPC Text
   - HUD
+  - Dialogue Prompt
+  - Shop Entrance
   layers:
   - Default
   - TransparentFX
