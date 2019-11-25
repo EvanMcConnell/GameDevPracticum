@@ -3258,7 +3258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127349599}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -974.87, y: 241, z: 64.49}
+  m_LocalPosition: {x: -989.87, y: 241, z: 59.49}
   m_LocalScale: {x: 1.1621, y: 1.1621, z: 1.1621}
   m_Children: []
   m_Father: {fileID: 1633813164}
@@ -3629,6 +3629,7 @@ MonoBehaviour:
   hud: []
   npcText: {fileID: 0}
   nearPlayer: 0
+  dialoguePrompt: {fileID: 0}
 --- !u!111 &1218254895
 Animation:
   m_ObjectHideFlags: 0
@@ -4973,7 +4974,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1748432246
 RectTransform:

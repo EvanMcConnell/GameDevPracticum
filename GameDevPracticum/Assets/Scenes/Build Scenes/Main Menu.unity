@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 0, b: 0, a: 1}
+  m_AmbientEquatorColor: {r: 0, g: 0.5999999, b: 1, a: 1}
+  m_AmbientGroundColor: {r: 1, g: 0.8600629, b: 0.5801887, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: a9b45cd97b8d5c64da839b63544e443d, type: 2}
   m_HaloStrength: 0.5
@@ -167,6 +167,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &4034617
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +216,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &4647103
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +357,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &7962662
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,6 +406,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &11285009
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,6 +485,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &14630526
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,6 +565,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &16404338
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +614,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &16824432
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +663,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &17284642
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,6 +712,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &20933128
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +761,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &21036708
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +810,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &22459393
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,6 +951,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &25797549
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,6 +1000,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &27325994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,6 +1172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &29212013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,6 +1221,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &29688830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1270,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &30829025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1394,6 +1442,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &32536194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,6 +2014,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &44383157
 GameObject:
   m_ObjectHideFlags: 0
@@ -2074,6 +2128,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &50681653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2243,6 +2300,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &54747555
 GameObject:
   m_ObjectHideFlags: 0
@@ -2444,6 +2504,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &58129665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,6 +2553,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &59079393
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,6 +2786,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &66867807
 GameObject:
   m_ObjectHideFlags: 0
@@ -2919,6 +2988,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &72210662
 GameObject:
   m_ObjectHideFlags: 0
@@ -2965,6 +3037,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &72211656
 GameObject:
   m_ObjectHideFlags: 0
@@ -4002,6 +4077,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &88859773
 GameObject:
   m_ObjectHideFlags: 0
@@ -4508,6 +4586,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &102014854
 GameObject:
   m_ObjectHideFlags: 0
@@ -4554,6 +4635,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &104229826
 GameObject:
   m_ObjectHideFlags: 0
@@ -5059,6 +5143,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &111488969
 GameObject:
   m_ObjectHideFlags: 0
@@ -5105,6 +5192,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &113205925
 GameObject:
   m_ObjectHideFlags: 0
@@ -5243,6 +5333,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &119971011
 GameObject:
   m_ObjectHideFlags: 0
@@ -5289,6 +5382,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &121664012
 GameObject:
   m_ObjectHideFlags: 0
@@ -5552,6 +5648,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &125750902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5598,6 +5697,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &132057450
 GameObject:
   m_ObjectHideFlags: 0
@@ -6300,6 +6402,7 @@ MonoBehaviour:
   - {fileID: 1555209540}
   - {fileID: 1236380057}
   following: 0
+  transitioning: 0
   searchCone: {fileID: 0}
   anim: {fileID: 892660594}
   audioSourceIdle: {fileID: 137449538}
@@ -6652,6 +6755,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &144958367
 GameObject:
   m_ObjectHideFlags: 0
@@ -6882,6 +6988,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &154128288
 GameObject:
   m_ObjectHideFlags: 0
@@ -6928,6 +7037,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &157763924
 GameObject:
   m_ObjectHideFlags: 0
@@ -6974,6 +7086,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &158475998
 GameObject:
   m_ObjectHideFlags: 0
@@ -7174,6 +7289,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &163857649
 GameObject:
   m_ObjectHideFlags: 0
@@ -7403,6 +7521,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &168188540
 GameObject:
   m_ObjectHideFlags: 0
@@ -8008,6 +8129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &180852739
 GameObject:
   m_ObjectHideFlags: 0
@@ -8084,6 +8208,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &184087219
 GameObject:
   m_ObjectHideFlags: 0
@@ -8529,6 +8656,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &192951622
 GameObject:
   m_ObjectHideFlags: 0
@@ -8575,6 +8705,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &193286350
 GameObject:
   m_ObjectHideFlags: 0
@@ -8683,6 +8816,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &196541339
 GameObject:
   m_ObjectHideFlags: 0
@@ -8829,6 +8965,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &200319675
 GameObject:
   m_ObjectHideFlags: 0
@@ -9030,6 +9169,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &202955003
 GameObject:
   m_ObjectHideFlags: 0
@@ -9076,6 +9218,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &206335056
 GameObject:
   m_ObjectHideFlags: 0
@@ -10017,6 +10162,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &223210267
 GameObject:
   m_ObjectHideFlags: 0
@@ -10461,6 +10609,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &237508584
 GameObject:
   m_ObjectHideFlags: 0
@@ -10507,6 +10658,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &238591571
 GameObject:
   m_ObjectHideFlags: 0
@@ -10583,6 +10737,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &239441925
 GameObject:
   m_ObjectHideFlags: 0
@@ -11006,6 +11163,7 @@ MonoBehaviour:
   - {fileID: 90626576}
   - {fileID: 163857650}
   following: 0
+  transitioning: 0
   searchCone: {fileID: 0}
   anim: {fileID: 285077671}
   audioSourceIdle: {fileID: 239441929}
@@ -11173,6 +11331,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &243178393
 GameObject:
   m_ObjectHideFlags: 0
@@ -11410,6 +11571,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &250470126
 GameObject:
   m_ObjectHideFlags: 0
@@ -11580,6 +11744,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &254054190
 GameObject:
   m_ObjectHideFlags: 0
@@ -11809,6 +11976,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &260618288
 GameObject:
   m_ObjectHideFlags: 0
@@ -12192,6 +12362,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &265474703
 GameObject:
   m_ObjectHideFlags: 0
@@ -12238,6 +12411,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &266023230
 GameObject:
   m_ObjectHideFlags: 0
@@ -12284,6 +12460,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &270517929
 GameObject:
   m_ObjectHideFlags: 0
@@ -12546,6 +12725,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &285019689
 GameObject:
   m_ObjectHideFlags: 0
@@ -13152,6 +13334,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &302095508
 GameObject:
   m_ObjectHideFlags: 0
@@ -13321,6 +13506,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &308014727
 GameObject:
   m_ObjectHideFlags: 0
@@ -13367,6 +13555,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 3655020970500330471, guid: 5196ce1346f8f454bacfca1127c2a191, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &308279110
 GameObject:
   m_ObjectHideFlags: 0
@@ -13413,6 +13604,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &310734817
 GameObject:
   m_ObjectHideFlags: 0
@@ -13582,6 +13776,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &321112063
 GameObject:
   m_ObjectHideFlags: 0
@@ -13720,6 +13917,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &328004209
 GameObject:
   m_ObjectHideFlags: 0
@@ -13796,6 +13996,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &330196897
 GameObject:
   m_ObjectHideFlags: 0
@@ -13842,6 +14045,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &333464712
 GameObject:
   m_ObjectHideFlags: 0
@@ -13888,6 +14094,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &336840697
 GameObject:
   m_ObjectHideFlags: 0
@@ -13934,6 +14143,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &336853693
 GameObject:
   m_ObjectHideFlags: 0
@@ -14195,6 +14407,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &339096878
 GameObject:
   m_ObjectHideFlags: 0
@@ -14365,6 +14580,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &342860427
 GameObject:
   m_ObjectHideFlags: 0
@@ -14411,6 +14629,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &343045373
 GameObject:
   m_ObjectHideFlags: 0
@@ -14521,6 +14742,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &348766838
 GameObject:
   m_ObjectHideFlags: 0
@@ -14567,6 +14791,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &349129248
 GameObject:
   m_ObjectHideFlags: 0
@@ -14797,6 +15024,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &354414374
 GameObject:
   m_ObjectHideFlags: 0
@@ -14843,6 +15073,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &356392096
 GameObject:
   m_ObjectHideFlags: 0
@@ -14889,6 +15122,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &359835568
 GameObject:
   m_ObjectHideFlags: 0
@@ -14935,6 +15171,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &361664816
 GameObject:
   m_ObjectHideFlags: 0
@@ -15379,6 +15618,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &374107069
 GameObject:
   m_ObjectHideFlags: 0
@@ -15456,6 +15698,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &375961762
 GameObject:
   m_ObjectHideFlags: 0
@@ -15937,6 +16182,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &384063002
 GameObject:
   m_ObjectHideFlags: 0
@@ -16263,6 +16511,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &396117742
 GameObject:
   m_ObjectHideFlags: 0
@@ -16309,6 +16560,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &396626128
 GameObject:
   m_ObjectHideFlags: 0
@@ -16662,6 +16916,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &401872199
 GameObject:
   m_ObjectHideFlags: 0
@@ -16708,6 +16965,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &406903630
 GameObject:
   m_ObjectHideFlags: 0
@@ -17470,6 +17730,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &421645209
 GameObject:
   m_ObjectHideFlags: 0
@@ -17700,6 +17963,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &424132916
 GameObject:
   m_ObjectHideFlags: 0
@@ -17746,6 +18012,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &426516071
 GameObject:
   m_ObjectHideFlags: 0
@@ -17824,6 +18093,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &427145870
 GameObject:
   m_ObjectHideFlags: 0
@@ -17962,6 +18234,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &432538223
 GameObject:
   m_ObjectHideFlags: 0
@@ -18008,6 +18283,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &433646909
 GameObject:
   m_ObjectHideFlags: 0
@@ -18208,6 +18486,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &437878224
 GameObject:
   m_ObjectHideFlags: 0
@@ -18377,6 +18658,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &440000317
 GameObject:
   m_ObjectHideFlags: 0
@@ -18730,6 +19014,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &441447580
 GameObject:
   m_ObjectHideFlags: 0
@@ -18868,6 +19155,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &442853622
 GameObject:
   m_ObjectHideFlags: 0
@@ -19253,6 +19543,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &448390122
 GameObject:
   m_ObjectHideFlags: 0
@@ -19299,6 +19592,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &450865335
 GameObject:
   m_ObjectHideFlags: 0
@@ -19437,6 +19733,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &453295689
 GameObject:
   m_ObjectHideFlags: 0
@@ -19667,6 +19966,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &463336074
 GameObject:
   m_ObjectHideFlags: 0
@@ -19805,6 +20107,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &465490317
 GameObject:
   m_ObjectHideFlags: 0
@@ -20188,6 +20493,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &469033096
 GameObject:
   m_ObjectHideFlags: 0
@@ -20417,6 +20725,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &475560940
 GameObject:
   m_ObjectHideFlags: 0
@@ -20525,6 +20836,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &478271374
 GameObject:
   m_ObjectHideFlags: 0
@@ -20571,6 +20885,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &478887333
 GameObject:
   m_ObjectHideFlags: 0
@@ -20617,6 +20934,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &481309697
 GameObject:
   m_ObjectHideFlags: 0
@@ -20788,6 +21108,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &483633786
 GameObject:
   m_ObjectHideFlags: 0
@@ -20834,6 +21157,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &485831369
 GameObject:
   m_ObjectHideFlags: 0
@@ -20880,6 +21206,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &486242715
 GameObject:
   m_ObjectHideFlags: 0
@@ -21423,6 +21752,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &502420392
 GameObject:
   m_ObjectHideFlags: 0
@@ -21636,6 +21968,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &507394296
 GameObject:
   m_ObjectHideFlags: 0
@@ -21682,6 +22017,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &507487251
 GameObject:
   m_ObjectHideFlags: 0
@@ -21728,6 +22066,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &507703196
 GameObject:
   m_ObjectHideFlags: 0
@@ -22279,6 +22620,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &515440470
 GameObject:
   m_ObjectHideFlags: 0
@@ -22325,6 +22669,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &519307096
 GameObject:
   m_ObjectHideFlags: 0
@@ -22371,6 +22718,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &524804890
 GameObject:
   m_ObjectHideFlags: 0
@@ -22417,6 +22767,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &527020320
 GameObject:
   m_ObjectHideFlags: 0
@@ -22555,6 +22908,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &533684461
 GameObject:
   m_ObjectHideFlags: 0
@@ -22693,6 +23049,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &536519519
 GameObject:
   m_ObjectHideFlags: 0
@@ -23112,6 +23471,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &543034254
 GameObject:
   m_ObjectHideFlags: 0
@@ -23618,6 +23980,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &546479566
 GameObject:
   m_ObjectHideFlags: 0
@@ -23664,6 +24029,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &548174925
 GameObject:
   m_ObjectHideFlags: 0
@@ -24109,6 +24477,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &555923279
 GameObject:
   m_ObjectHideFlags: 0
@@ -24494,6 +24865,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &567991193
 GameObject:
   m_ObjectHideFlags: 0
@@ -24880,6 +25254,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &573743517
 GameObject:
   m_ObjectHideFlags: 0
@@ -24926,6 +25303,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &573940785
 GameObject:
   m_ObjectHideFlags: 0
@@ -25095,6 +25475,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &576242697
 GameObject:
   m_ObjectHideFlags: 0
@@ -25172,6 +25555,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &580490199
 GameObject:
   m_ObjectHideFlags: 0
@@ -25617,6 +26003,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &591987204
 GameObject:
   m_ObjectHideFlags: 0
@@ -25694,6 +26083,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &594425308
 GameObject:
   m_ObjectHideFlags: 0
@@ -25740,6 +26132,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &594482276
 GameObject:
   m_ObjectHideFlags: 0
@@ -25786,6 +26181,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &595232545
 GameObject:
   m_ObjectHideFlags: 0
@@ -26299,6 +26697,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &608625330
 GameObject:
   m_ObjectHideFlags: 0
@@ -26529,6 +26930,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &613503576
 GameObject:
   m_ObjectHideFlags: 0
@@ -26789,6 +27193,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &623634844
 GameObject:
   m_ObjectHideFlags: 0
@@ -26835,6 +27242,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &623964365
 GameObject:
   m_ObjectHideFlags: 0
@@ -26943,6 +27353,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &624922192
 GameObject:
   m_ObjectHideFlags: 0
@@ -27081,6 +27494,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &627215221
 GameObject:
   m_ObjectHideFlags: 0
@@ -27250,6 +27666,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &629738545
 GameObject:
   m_ObjectHideFlags: 0
@@ -27326,6 +27745,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &632746032
 GameObject:
   m_ObjectHideFlags: 0
@@ -27471,6 +27893,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &637222354
 GameObject:
   m_ObjectHideFlags: 0
@@ -27517,6 +27942,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &637303814
 GameObject:
   m_ObjectHideFlags: 0
@@ -27563,6 +27991,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &638300112
 GameObject:
   m_ObjectHideFlags: 0
@@ -27898,6 +28329,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &644080433
 GameObject:
   m_ObjectHideFlags: 0
@@ -27944,6 +28378,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &644348004
 GameObject:
   m_ObjectHideFlags: 0
@@ -28082,6 +28519,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &647633367
 GameObject:
   m_ObjectHideFlags: 0
@@ -28128,6 +28568,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &651540440
 GameObject:
   m_ObjectHideFlags: 0
@@ -28265,6 +28708,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &652809334
 GameObject:
   m_ObjectHideFlags: 0
@@ -28434,6 +28880,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &654922455
 GameObject:
   m_ObjectHideFlags: 0
@@ -28542,6 +28991,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &658173725
 GameObject:
   m_ObjectHideFlags: 0
@@ -28816,6 +29268,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &663425475
 GameObject:
   m_ObjectHideFlags: 0
@@ -28892,6 +29347,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &664152473
 GameObject:
   m_ObjectHideFlags: 0
@@ -28938,6 +29396,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &668845867
 GameObject:
   m_ObjectHideFlags: 0
@@ -29199,6 +29660,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &672597160
 GameObject:
   m_ObjectHideFlags: 0
@@ -29613,6 +30077,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &684371877
 GameObject:
   m_ObjectHideFlags: 0
@@ -29659,6 +30126,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &684888843
 GameObject:
   m_ObjectHideFlags: 0
@@ -30229,6 +30699,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &697635496
 GameObject:
   m_ObjectHideFlags: 0
@@ -30367,6 +30840,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &699830756
 GameObject:
   m_ObjectHideFlags: 0
@@ -30505,6 +30981,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &701998948
 GameObject:
   m_ObjectHideFlags: 0
@@ -30643,6 +31122,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &704464440
 GameObject:
   m_ObjectHideFlags: 0
@@ -30689,6 +31171,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &705655906
 GameObject:
   m_ObjectHideFlags: 0
@@ -30735,6 +31220,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &707209720
 GameObject:
   m_ObjectHideFlags: 0
@@ -30781,6 +31269,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &708563148
 GameObject:
   m_ObjectHideFlags: 0
@@ -30827,6 +31318,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &709544163
 GameObject:
   m_ObjectHideFlags: 0
@@ -30873,6 +31367,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &713028069
 GameObject:
   m_ObjectHideFlags: 0
@@ -30919,6 +31416,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &714070159
 GameObject:
   m_ObjectHideFlags: 0
@@ -30965,6 +31465,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &715937074
 GameObject:
   m_ObjectHideFlags: 0
@@ -31011,6 +31514,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &716026179
 GameObject:
   m_ObjectHideFlags: 0
@@ -31149,6 +31655,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &718156260
 GameObject:
   m_ObjectHideFlags: 0
@@ -31287,6 +31796,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &719434220
 GameObject:
   m_ObjectHideFlags: 0
@@ -31333,6 +31845,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &719820385
 GameObject:
   m_ObjectHideFlags: 0
@@ -31532,6 +32047,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &727005803
 GameObject:
   m_ObjectHideFlags: 0
@@ -31888,6 +32406,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &732510699
 GameObject:
   m_ObjectHideFlags: 0
@@ -31934,6 +32455,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &734906197
 GameObject:
   m_ObjectHideFlags: 0
@@ -32010,6 +32534,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &737720101
 GameObject:
   m_ObjectHideFlags: 0
@@ -32178,6 +32705,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &741070819
 GameObject:
   m_ObjectHideFlags: 0
@@ -32316,6 +32846,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &748625104
 GameObject:
   m_ObjectHideFlags: 0
@@ -32762,6 +33295,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &767852621
 GameObject:
   m_ObjectHideFlags: 0
@@ -32838,6 +33374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &768545630
 GameObject:
   m_ObjectHideFlags: 0
@@ -32884,6 +33423,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &772058312
 GameObject:
   m_ObjectHideFlags: 0
@@ -33051,6 +33593,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &776254471
 GameObject:
   m_ObjectHideFlags: 0
@@ -33375,6 +33920,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &785562870
 GameObject:
   m_ObjectHideFlags: 0
@@ -33453,6 +34001,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &787908933
 GameObject:
   m_ObjectHideFlags: 0
@@ -33746,6 +34297,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &799330572
 GameObject:
   m_ObjectHideFlags: 0
@@ -33945,6 +34499,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &810112572
 GameObject:
   m_ObjectHideFlags: 0
@@ -33991,6 +34548,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &812548416
 GameObject:
   m_ObjectHideFlags: 0
@@ -34191,6 +34751,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &816101201
 GameObject:
   m_ObjectHideFlags: 0
@@ -34237,6 +34800,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &816491466
 GameObject:
   m_ObjectHideFlags: 0
@@ -34375,6 +34941,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &821075773
 GameObject:
   m_ObjectHideFlags: 0
@@ -34421,6 +34990,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &821877455
 GameObject:
   m_ObjectHideFlags: 0
@@ -34589,6 +35161,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &829330762
 GameObject:
   m_ObjectHideFlags: 0
@@ -34635,6 +35210,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &830286504
 GameObject:
   m_ObjectHideFlags: 0
@@ -35141,6 +35719,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &839877547
 GameObject:
   m_ObjectHideFlags: 0
@@ -35402,6 +35983,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &849009706
 GameObject:
   m_ObjectHideFlags: 0
@@ -35448,6 +36032,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &849627601
 GameObject:
   m_ObjectHideFlags: 0
@@ -35569,6 +36156,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &857263121
 GameObject:
   m_ObjectHideFlags: 0
@@ -36115,6 +36705,7 @@ MonoBehaviour:
   - {fileID: 2029203969}
   - {fileID: 1132307931}
   following: 0
+  transitioning: 0
   searchCone: {fileID: 0}
   anim: {fileID: 486242718}
   audioSourceIdle: {fileID: 857909276}
@@ -36371,6 +36962,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &863243329
 GameObject:
   m_ObjectHideFlags: 0
@@ -36508,6 +37102,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &867242872
 GameObject:
   m_ObjectHideFlags: 0
@@ -36554,6 +37151,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &867726424
 GameObject:
   m_ObjectHideFlags: 0
@@ -36876,6 +37476,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &874159097
 GameObject:
   m_ObjectHideFlags: 0
@@ -36922,6 +37525,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &875189651
 GameObject:
   m_ObjectHideFlags: 0
@@ -36999,6 +37605,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &877420770
 GameObject:
   m_ObjectHideFlags: 0
@@ -37045,6 +37654,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &877618309
 GameObject:
   m_ObjectHideFlags: 0
@@ -37091,6 +37703,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &880197455
 GameObject:
   m_ObjectHideFlags: 0
@@ -37260,6 +37875,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &881626493
 GameObject:
   m_ObjectHideFlags: 0
@@ -37306,6 +37924,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &884311227
 GameObject:
   m_ObjectHideFlags: 0
@@ -37352,6 +37973,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &886816236
 GameObject:
   m_ObjectHideFlags: 0
@@ -37778,6 +38402,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &898552606
 GameObject:
   m_ObjectHideFlags: 0
@@ -37947,6 +38574,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &900893039
 GameObject:
   m_ObjectHideFlags: 0
@@ -38431,6 +39061,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &906674011
 GameObject:
   m_ObjectHideFlags: 0
@@ -38630,6 +39263,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &910772499
 GameObject:
   m_ObjectHideFlags: 0
@@ -38981,6 +39617,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &912991175
 GameObject:
   m_ObjectHideFlags: 0
@@ -39248,6 +39887,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &918671197
 GameObject:
   m_ObjectHideFlags: 0
@@ -39294,6 +39936,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &918820054
 GameObject:
   m_ObjectHideFlags: 0
@@ -39432,6 +40077,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &922224794
 GameObject:
   m_ObjectHideFlags: 0
@@ -39947,6 +40595,7 @@ MonoBehaviour:
   - {fileID: 651540441}
   - {fileID: 638859804}
   following: 0
+  transitioning: 0
   searchCone: {fileID: 0}
   anim: {fileID: 1573515149}
   audioSourceIdle: {fileID: 926097780}
@@ -40172,6 +40821,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &929277770
 GameObject:
   m_ObjectHideFlags: 0
@@ -40249,6 +40901,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &930135817
 GameObject:
   m_ObjectHideFlags: 0
@@ -40479,6 +41134,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &930462855
 GameObject:
   m_ObjectHideFlags: 0
@@ -40525,6 +41183,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &932896059
 GameObject:
   m_ObjectHideFlags: 0
@@ -40633,6 +41294,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &937078513
 GameObject:
   m_ObjectHideFlags: 0
@@ -40959,6 +41623,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &943906612
 GameObject:
   m_ObjectHideFlags: 0
@@ -41005,6 +41672,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &944796444
 GameObject:
   m_ObjectHideFlags: 0
@@ -41051,6 +41721,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &946469077
 GameObject:
   m_ObjectHideFlags: 0
@@ -41097,6 +41770,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &948352760
 GameObject:
   m_ObjectHideFlags: 0
@@ -41235,6 +41911,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &950359224
 GameObject:
   m_ObjectHideFlags: 0
@@ -41281,6 +41960,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &952148852
 GameObject:
   m_ObjectHideFlags: 0
@@ -41327,6 +42009,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &952510361
 GameObject:
   m_ObjectHideFlags: 0
@@ -41373,6 +42058,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &953368921
 GameObject:
   m_ObjectHideFlags: 0
@@ -41419,6 +42107,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &954571043
 GameObject:
   m_ObjectHideFlags: 0
@@ -41649,6 +42340,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &957969296
 GameObject:
   m_ObjectHideFlags: 0
@@ -41817,6 +42511,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 3655020970500330471, guid: 5196ce1346f8f454bacfca1127c2a191, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &965040680
 GameObject:
   m_ObjectHideFlags: 0
@@ -42078,6 +42775,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &972585933
 GameObject:
   m_ObjectHideFlags: 0
@@ -42124,6 +42824,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &974715354
 GameObject:
   m_ObjectHideFlags: 0
@@ -42169,6 +42872,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &975698017
 GameObject:
   m_ObjectHideFlags: 0
@@ -42398,6 +43104,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &989135739
 GameObject:
   m_ObjectHideFlags: 0
@@ -42876,6 +43585,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &998774650
 GameObject:
   m_ObjectHideFlags: 0
@@ -42922,6 +43634,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &998874590
 GameObject:
   m_ObjectHideFlags: 0
@@ -42968,6 +43683,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1000893784
 GameObject:
   m_ObjectHideFlags: 0
@@ -43014,6 +43732,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1002631054
 GameObject:
   m_ObjectHideFlags: 0
@@ -43460,6 +44181,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1014349669
 GameObject:
   m_ObjectHideFlags: 0
@@ -43506,6 +44230,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1015472938
 GameObject:
   m_ObjectHideFlags: 0
@@ -43552,6 +44279,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1016584455
 GameObject:
   m_ObjectHideFlags: 0
@@ -43997,6 +44727,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1028837254
 GameObject:
   m_ObjectHideFlags: 0
@@ -44074,6 +44807,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1033785272
 GameObject:
   m_ObjectHideFlags: 0
@@ -44120,6 +44856,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1035653284
 GameObject:
   m_ObjectHideFlags: 0
@@ -44564,6 +45303,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1053085195
 GameObject:
   m_ObjectHideFlags: 0
@@ -44610,6 +45352,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1054185279
 GameObject:
   m_ObjectHideFlags: 0
@@ -44720,6 +45465,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1060749406
 GameObject:
   m_ObjectHideFlags: 0
@@ -44766,6 +45514,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1061267573
 GameObject:
   m_ObjectHideFlags: 0
@@ -45087,6 +45838,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1073397936
 GameObject:
   m_ObjectHideFlags: 0
@@ -45216,6 +45970,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1074731059
 GameObject:
   m_ObjectHideFlags: 0
@@ -45262,6 +46019,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1075048502
 GameObject:
   m_ObjectHideFlags: 0
@@ -46050,6 +46810,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1105655464
 GameObject:
   m_ObjectHideFlags: 0
@@ -46253,6 +47016,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1114388637
 GameObject:
   m_ObjectHideFlags: 0
@@ -46391,6 +47157,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1119689729
 GameObject:
   m_ObjectHideFlags: 0
@@ -46437,6 +47206,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1119880836
 GameObject:
   m_ObjectHideFlags: 0
@@ -46549,6 +47321,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1121859385
 GameObject:
   m_ObjectHideFlags: 0
@@ -47076,6 +47851,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 3655020970500330471, guid: 5196ce1346f8f454bacfca1127c2a191, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1132307930
 GameObject:
   m_ObjectHideFlags: 0
@@ -47213,6 +47991,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1135788602
 GameObject:
   m_ObjectHideFlags: 0
@@ -47446,6 +48227,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1143387955
 GameObject:
   m_ObjectHideFlags: 0
@@ -47522,6 +48306,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1146034731
 GameObject:
   m_ObjectHideFlags: 0
@@ -47660,6 +48447,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1149406745
 GameObject:
   m_ObjectHideFlags: 0
@@ -48073,6 +48863,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1155428346
 GameObject:
   m_ObjectHideFlags: 0
@@ -48395,6 +49188,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1162807808
 GameObject:
   m_ObjectHideFlags: 0
@@ -49156,6 +49952,7 @@ MonoBehaviour:
   - {fileID: 256831696}
   - {fileID: 1830766118}
   following: 0
+  transitioning: 0
   searchCone: {fileID: 0}
   anim: {fileID: 418821869}
   audioSourceIdle: {fileID: 1172317841}
@@ -49381,6 +50178,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1178031500
 GameObject:
   m_ObjectHideFlags: 0
@@ -49427,6 +50227,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1180234645
 GameObject:
   m_ObjectHideFlags: 0
@@ -49473,6 +50276,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1180765422
 GameObject:
   m_ObjectHideFlags: 0
@@ -49519,6 +50325,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1181724358
 GameObject:
   m_ObjectHideFlags: 0
@@ -50060,6 +50869,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1194618606
 GameObject:
   m_ObjectHideFlags: 0
@@ -50105,6 +50917,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1195893123
 GameObject:
   m_ObjectHideFlags: 0
@@ -50426,6 +51241,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1208987548
 GameObject:
   m_ObjectHideFlags: 0
@@ -50687,6 +51505,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1213049571
 GameObject:
   m_ObjectHideFlags: 0
@@ -51009,6 +51830,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1217058574
 GameObject:
   m_ObjectHideFlags: 0
@@ -51238,6 +52062,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1224005571
 GameObject:
   m_ObjectHideFlags: 0
@@ -51535,6 +52362,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1234108548
 GameObject:
   m_ObjectHideFlags: 0
@@ -51581,6 +52411,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1234292942
 GameObject:
   m_ObjectHideFlags: 0
@@ -51719,6 +52552,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1236380056
 GameObject:
   m_ObjectHideFlags: 0
@@ -51856,6 +52692,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1241957963
 GameObject:
   m_ObjectHideFlags: 0
@@ -51933,6 +52772,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1245085524
 GameObject:
   m_ObjectHideFlags: 0
@@ -51979,6 +52821,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1245203820
 GameObject:
   m_ObjectHideFlags: 0
@@ -52025,6 +52870,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1245788288
 GameObject:
   m_ObjectHideFlags: 0
@@ -52133,6 +52981,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1247692517
 GameObject:
   m_ObjectHideFlags: 0
@@ -52486,6 +53337,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1250018455
 GameObject:
   m_ObjectHideFlags: 0
@@ -52656,6 +53510,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1253522836
 GameObject:
   m_ObjectHideFlags: 0
@@ -52885,6 +53742,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1261878199
 GameObject:
   m_ObjectHideFlags: 0
@@ -52931,6 +53791,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1262959092
 GameObject:
   m_ObjectHideFlags: 0
@@ -52977,6 +53840,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1263744005
 GameObject:
   m_ObjectHideFlags: 0
@@ -53330,6 +54196,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1271526456
 GameObject:
   m_ObjectHideFlags: 0
@@ -53470,6 +54339,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1273506020
 GameObject:
   m_ObjectHideFlags: 0
@@ -53920,6 +54792,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1280016958
 GameObject:
   m_ObjectHideFlags: 0
@@ -53966,6 +54841,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1281572910
 GameObject:
   m_ObjectHideFlags: 0
@@ -54012,6 +54890,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1282873949
 GameObject:
   m_ObjectHideFlags: 0
@@ -54093,6 +54974,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1284205327
 GameObject:
   m_ObjectHideFlags: 0
@@ -54231,6 +55115,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1286721562
 GameObject:
   m_ObjectHideFlags: 0
@@ -55109,6 +55996,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1301386890
 GameObject:
   m_ObjectHideFlags: 0
@@ -55155,6 +56045,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1301824492
 GameObject:
   m_ObjectHideFlags: 0
@@ -55398,6 +56291,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1313567671
 GameObject:
   m_ObjectHideFlags: 0
@@ -55444,6 +56340,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1317106062
 GameObject:
   m_ObjectHideFlags: 0
@@ -55582,6 +56481,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1323516527
 GameObject:
   m_ObjectHideFlags: 0
@@ -55842,6 +56744,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1329674084
 GameObject:
   m_ObjectHideFlags: 0
@@ -56134,6 +57039,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1333096336
 GameObject:
   m_ObjectHideFlags: 0
@@ -56180,6 +57088,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1333572576
 GameObject:
   m_ObjectHideFlags: 0
@@ -56226,6 +57137,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1335231773
 GameObject:
   m_ObjectHideFlags: 0
@@ -56766,6 +57680,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1351219865
 GameObject:
   m_ObjectHideFlags: 0
@@ -56880,6 +57797,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1354835673
 GameObject:
   m_ObjectHideFlags: 0
@@ -57018,6 +57938,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1356169076
 GameObject:
   m_ObjectHideFlags: 0
@@ -57063,6 +57986,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1356466468
 GameObject:
   m_ObjectHideFlags: 0
@@ -57445,6 +58371,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1365959024
 GameObject:
   m_ObjectHideFlags: 0
@@ -57583,6 +58512,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1371306594
 GameObject:
   m_ObjectHideFlags: 0
@@ -57660,6 +58592,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1373644799
 GameObject:
   m_ObjectHideFlags: 0
@@ -57706,6 +58641,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1375905514
 GameObject:
   m_ObjectHideFlags: 0
@@ -57844,6 +58782,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1377298956
 GameObject:
   m_ObjectHideFlags: 0
@@ -57924,6 +58865,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1379016106
 GameObject:
   m_ObjectHideFlags: 0
@@ -58185,6 +59129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1385541933
 GameObject:
   m_ObjectHideFlags: 0
@@ -58231,6 +59178,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1387147465
 GameObject:
   m_ObjectHideFlags: 0
@@ -58321,6 +59271,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1390842616
 GameObject:
   m_ObjectHideFlags: 0
@@ -58367,6 +59320,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1392459646
 GameObject:
   m_ObjectHideFlags: 0
@@ -58723,6 +59679,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 3655020970500330471, guid: 5196ce1346f8f454bacfca1127c2a191, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1410649625
 GameObject:
   m_ObjectHideFlags: 0
@@ -58891,6 +59850,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1416387808
 GameObject:
   m_ObjectHideFlags: 0
@@ -58937,6 +59899,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1419321456
 GameObject:
   m_ObjectHideFlags: 0
@@ -59197,6 +60162,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1421878818
 GameObject:
   m_ObjectHideFlags: 0
@@ -59366,6 +60334,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1436097275
 GameObject:
   m_ObjectHideFlags: 0
@@ -59657,6 +60628,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1445780771
 GameObject:
   m_ObjectHideFlags: 0
@@ -59747,6 +60721,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1447410290
 GameObject:
   m_ObjectHideFlags: 0
@@ -59884,6 +60861,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1448854594
 GameObject:
   m_ObjectHideFlags: 0
@@ -60574,6 +61554,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1458114313
 GameObject:
   m_ObjectHideFlags: 0
@@ -60773,6 +61756,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1467876536
 GameObject:
   m_ObjectHideFlags: 0
@@ -60912,6 +61898,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1474987421
 GameObject:
   m_ObjectHideFlags: 0
@@ -60958,6 +61947,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1475441755
 GameObject:
   m_ObjectHideFlags: 0
@@ -61127,6 +62119,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1481681254
 GameObject:
   m_ObjectHideFlags: 0
@@ -61788,6 +62783,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1490639692
 GameObject:
   m_ObjectHideFlags: 0
@@ -61926,6 +62924,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1495599736
 GameObject:
   m_ObjectHideFlags: 0
@@ -61972,6 +62973,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1495945825
 GameObject:
   m_ObjectHideFlags: 0
@@ -62018,6 +63022,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1497220895
 GameObject:
   m_ObjectHideFlags: 0
@@ -62187,6 +63194,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 3655020970500330471, guid: 5196ce1346f8f454bacfca1127c2a191, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1502676698
 GameObject:
   m_ObjectHideFlags: 0
@@ -62233,6 +63243,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1502684286
 GameObject:
   m_ObjectHideFlags: 0
@@ -62279,6 +63292,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1504213120
 GameObject:
   m_ObjectHideFlags: 0
@@ -62601,6 +63617,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1514294450
 GameObject:
   m_ObjectHideFlags: 0
@@ -62739,6 +63758,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1519389161
 GameObject:
   m_ObjectHideFlags: 0
@@ -62785,6 +63807,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1520888672
 GameObject:
   m_ObjectHideFlags: 0
@@ -63047,6 +64072,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1522446512
 GameObject:
   m_ObjectHideFlags: 0
@@ -63158,6 +64186,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1526228925
 GameObject:
   m_ObjectHideFlags: 0
@@ -63560,6 +64591,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1529497972
 GameObject:
   m_ObjectHideFlags: 0
@@ -63635,6 +64669,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1531538597
 GameObject:
   m_ObjectHideFlags: 0
@@ -63681,6 +64718,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1531711397
 GameObject:
   m_ObjectHideFlags: 0
@@ -63727,6 +64767,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1532019636
 GameObject:
   m_ObjectHideFlags: 0
@@ -63865,6 +64908,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1536656477
 GameObject:
   m_ObjectHideFlags: 0
@@ -64095,6 +65141,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1541143592
 GameObject:
   m_ObjectHideFlags: 0
@@ -64172,6 +65221,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1542363354
 GameObject:
   m_ObjectHideFlags: 0
@@ -64402,6 +65454,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1545407550
 GameObject:
   m_ObjectHideFlags: 0
@@ -64448,6 +65503,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1545622224
 GameObject:
   m_ObjectHideFlags: 0
@@ -64774,6 +65832,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1551335775
 GameObject:
   m_ObjectHideFlags: 0
@@ -65095,6 +66156,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1557746091
 GameObject:
   m_ObjectHideFlags: 0
@@ -65172,6 +66236,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1561779136
 GameObject:
   m_ObjectHideFlags: 0
@@ -65717,6 +66784,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1575103524
 GameObject:
   m_ObjectHideFlags: 0
@@ -65763,6 +66833,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1575991101
 GameObject:
   m_ObjectHideFlags: 0
@@ -65901,6 +66974,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1583304808
 GameObject:
   m_ObjectHideFlags: 0
@@ -66162,6 +67238,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1586149167
 GameObject:
   m_ObjectHideFlags: 0
@@ -66299,6 +67378,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1586729693
 GameObject:
   m_ObjectHideFlags: 0
@@ -66745,6 +67827,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1599739399
 GameObject:
   m_ObjectHideFlags: 0
@@ -67127,6 +68212,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1614067044
 GameObject:
   m_ObjectHideFlags: 0
@@ -67204,6 +68292,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1614642146
 GameObject:
   m_ObjectHideFlags: 0
@@ -67250,6 +68341,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1615204954
 GameObject:
   m_ObjectHideFlags: 0
@@ -67357,6 +68451,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1620581781
 GameObject:
   m_ObjectHideFlags: 0
@@ -67481,6 +68578,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1626928136
 GameObject:
   m_ObjectHideFlags: 0
@@ -67741,6 +68841,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1631181515
 GameObject:
   m_ObjectHideFlags: 0
@@ -67880,6 +68983,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1641379170
 GameObject:
   m_ObjectHideFlags: 0
@@ -67957,6 +69063,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1642798836
 GameObject:
   m_ObjectHideFlags: 0
@@ -68130,6 +69239,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1648566188
 GameObject:
   m_ObjectHideFlags: 0
@@ -68299,6 +69411,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1655304267
 GameObject:
   m_ObjectHideFlags: 0
@@ -68407,6 +69522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1657289770
 GameObject:
   m_ObjectHideFlags: 0
@@ -68453,6 +69571,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1658039960
 GameObject:
   m_ObjectHideFlags: 0
@@ -68806,6 +69927,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1668292887
 GameObject:
   m_ObjectHideFlags: 0
@@ -68852,6 +69976,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1668313157
 GameObject:
   m_ObjectHideFlags: 0
@@ -68990,6 +70117,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1671912965
 GameObject:
   m_ObjectHideFlags: 0
@@ -69312,6 +70442,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1686508245
 GameObject:
   m_ObjectHideFlags: 0
@@ -69358,6 +70491,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1687043544
 GameObject:
   m_ObjectHideFlags: 0
@@ -69404,6 +70540,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!114 &1690228056 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2633537980038462814, guid: 84ce836f66871bf4f95f732644edff7b,
@@ -69869,6 +71008,7 @@ MonoBehaviour:
   - {fileID: 1942388432}
   - {fileID: 1363274011}
   following: 0
+  transitioning: 0
   searchCone: {fileID: 0}
   anim: {fileID: 1126280221}
   audioSourceIdle: {fileID: 1700014000}
@@ -70382,6 +71522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1715237002
 GameObject:
   m_ObjectHideFlags: 0
@@ -70551,6 +71694,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 3655020970500330471, guid: 5196ce1346f8f454bacfca1127c2a191, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1718488442
 GameObject:
   m_ObjectHideFlags: 0
@@ -70719,6 +71865,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1726677280
 GameObject:
   m_ObjectHideFlags: 0
@@ -71072,6 +72221,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1732002238
 GameObject:
   m_ObjectHideFlags: 0
@@ -71240,6 +72392,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1733946101
 GameObject:
   m_ObjectHideFlags: 0
@@ -71781,6 +72936,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1739085293
 GameObject:
   m_ObjectHideFlags: 0
@@ -72060,6 +73218,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1744006254
 GameObject:
   m_ObjectHideFlags: 0
@@ -72106,6 +73267,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1744673586
 GameObject:
   m_ObjectHideFlags: 0
@@ -72244,6 +73408,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1745482299
 GameObject:
   m_ObjectHideFlags: 0
@@ -72444,6 +73611,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1752296719
 GameObject:
   m_ObjectHideFlags: 0
@@ -72490,6 +73660,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1752929821
 GameObject:
   m_ObjectHideFlags: 0
@@ -72628,6 +73801,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1757642612
 GameObject:
   m_ObjectHideFlags: 0
@@ -72674,6 +73850,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1757861277
 GameObject:
   m_ObjectHideFlags: 0
@@ -72720,6 +73899,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1759600815
 GameObject:
   m_ObjectHideFlags: 0
@@ -73042,6 +74224,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1762550837
 GameObject:
   m_ObjectHideFlags: 0
@@ -73212,6 +74397,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1764361400
 GameObject:
   m_ObjectHideFlags: 0
@@ -73840,6 +75028,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1770201188
 GameObject:
   m_ObjectHideFlags: 0
@@ -73886,6 +75077,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1770256112
 GameObject:
   m_ObjectHideFlags: 0
@@ -74115,6 +75309,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1775376928
 GameObject:
   m_ObjectHideFlags: 0
@@ -74253,6 +75450,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1778305992
 GameObject:
   m_ObjectHideFlags: 0
@@ -74676,6 +75876,7 @@ MonoBehaviour:
   - {fileID: 1003546906}
   - {fileID: 1837903068}
   following: 0
+  transitioning: 0
   searchCone: {fileID: 0}
   anim: {fileID: 1764699430}
   audioSourceIdle: {fileID: 1778305996}
@@ -75024,6 +76225,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1784534097
 GameObject:
   m_ObjectHideFlags: 0
@@ -75070,6 +76274,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1784556271
 GameObject:
   m_ObjectHideFlags: 0
@@ -75606,6 +76813,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1798149467
 GameObject:
   m_ObjectHideFlags: 0
@@ -75976,6 +77186,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 3655020970500330471, guid: 5196ce1346f8f454bacfca1127c2a191, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1803782344
 GameObject:
   m_ObjectHideFlags: 0
@@ -76175,6 +77388,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1807174595
 GameObject:
   m_ObjectHideFlags: 0
@@ -76221,6 +77437,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1808718981
 GameObject:
   m_ObjectHideFlags: 0
@@ -76267,6 +77486,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1809012818
 GameObject:
   m_ObjectHideFlags: 0
@@ -76651,6 +77873,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1820429362
 GameObject:
   m_ObjectHideFlags: 0
@@ -76697,6 +77922,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1822185847
 GameObject:
   m_ObjectHideFlags: 0
@@ -76964,6 +78192,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1828519712
 GameObject:
   m_ObjectHideFlags: 0
@@ -77102,6 +78333,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1830736646
 GameObject:
   m_ObjectHideFlags: 0
@@ -77454,6 +78688,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1834782687
 GameObject:
   m_ObjectHideFlags: 0
@@ -77959,6 +79196,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1841433233
 GameObject:
   m_ObjectHideFlags: 0
@@ -78036,6 +79276,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1846467861
 GameObject:
   m_ObjectHideFlags: 0
@@ -78174,6 +79417,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1848416788
 GameObject:
   m_ObjectHideFlags: 0
@@ -78220,6 +79466,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1848508501
 GameObject:
   m_ObjectHideFlags: 0
@@ -78421,6 +79670,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1858489904
 GameObject:
   m_ObjectHideFlags: 0
@@ -78467,6 +79719,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1858770442
 GameObject:
   m_ObjectHideFlags: 0
@@ -78544,6 +79799,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1861054842
 GameObject:
   m_ObjectHideFlags: 0
@@ -78753,6 +80011,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1869878488
 GameObject:
   m_ObjectHideFlags: 0
@@ -78799,6 +80060,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1871347424
 GameObject:
   m_ObjectHideFlags: 0
@@ -79091,6 +80355,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1875524582
 GameObject:
   m_ObjectHideFlags: 0
@@ -79137,6 +80404,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1876477651
 GameObject:
   m_ObjectHideFlags: 0
@@ -79183,6 +80453,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1877239142
 GameObject:
   m_ObjectHideFlags: 0
@@ -79598,6 +80871,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1889249649
 GameObject:
   m_ObjectHideFlags: 0
@@ -79644,6 +80920,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1893748900
 GameObject:
   m_ObjectHideFlags: 0
@@ -79720,6 +80999,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1895725534
 GameObject:
   m_ObjectHideFlags: 0
@@ -79766,6 +81048,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1895759136
 GameObject:
   m_ObjectHideFlags: 0
@@ -79812,6 +81097,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1896069567
 GameObject:
   m_ObjectHideFlags: 0
@@ -79858,6 +81146,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1896243956
 GameObject:
   m_ObjectHideFlags: 0
@@ -79996,6 +81287,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1905082582
 GameObject:
   m_ObjectHideFlags: 0
@@ -80511,6 +81805,7 @@ MonoBehaviour:
   - {fileID: 109698465}
   - {fileID: 1586149168}
   following: 0
+  transitioning: 0
   searchCone: {fileID: 0}
   anim: {fileID: 80654596}
   audioSourceIdle: {fileID: 1905663082}
@@ -80643,6 +81938,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1909774073
 GameObject:
   m_ObjectHideFlags: 0
@@ -80689,6 +81987,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1909961272
 GameObject:
   m_ObjectHideFlags: 0
@@ -81410,6 +82711,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1923300721
 GameObject:
   m_ObjectHideFlags: 0
@@ -81456,6 +82760,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1924051690
 GameObject:
   m_ObjectHideFlags: 0
@@ -81532,6 +82839,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1924737132
 GameObject:
   m_ObjectHideFlags: 0
@@ -82327,6 +83637,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1933926117
 GameObject:
   m_ObjectHideFlags: 0
@@ -82770,6 +84083,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1943892487
 GameObject:
   m_ObjectHideFlags: 0
@@ -82939,6 +84255,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1951343097
 GameObject:
   m_ObjectHideFlags: 0
@@ -82985,6 +84304,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1951508084
 GameObject:
   m_ObjectHideFlags: 0
@@ -83185,6 +84507,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1964881164
 GameObject:
   m_ObjectHideFlags: 0
@@ -83426,6 +84751,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1972839722
 GameObject:
   m_ObjectHideFlags: 0
@@ -83503,6 +84831,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1974486225
 GameObject:
   m_ObjectHideFlags: 0
@@ -83549,6 +84880,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1975524423
 GameObject:
   m_ObjectHideFlags: 0
@@ -83595,6 +84929,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1976439078
 GameObject:
   m_ObjectHideFlags: 0
@@ -83826,6 +85163,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1985104568
 GameObject:
   m_ObjectHideFlags: 0
@@ -83872,6 +85212,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1985776665
 GameObject:
   m_ObjectHideFlags: 0
@@ -84041,6 +85384,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1991204480
 GameObject:
   m_ObjectHideFlags: 0
@@ -84087,6 +85433,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1997388280
 GameObject:
   m_ObjectHideFlags: 0
@@ -84193,6 +85542,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2000806255
 GameObject:
   m_ObjectHideFlags: 0
@@ -84239,6 +85591,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2001877619
 GameObject:
   m_ObjectHideFlags: 0
@@ -84377,6 +85732,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2005471015
 GameObject:
   m_ObjectHideFlags: 0
@@ -84454,6 +85812,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2006578710
 GameObject:
   m_ObjectHideFlags: 0
@@ -84948,6 +86309,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2019076746
 GameObject:
   m_ObjectHideFlags: 0
@@ -85548,6 +86912,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2028707197
 GameObject:
   m_ObjectHideFlags: 0
@@ -85594,6 +86961,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2029175203
 GameObject:
   m_ObjectHideFlags: 0
@@ -85915,6 +87285,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2037942889
 GameObject:
   m_ObjectHideFlags: 0
@@ -85961,6 +87334,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2038821498
 GameObject:
   m_ObjectHideFlags: 0
@@ -86007,6 +87383,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2039503256
 GameObject:
   m_ObjectHideFlags: 0
@@ -86237,6 +87616,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2042241433
 GameObject:
   m_ObjectHideFlags: 0
@@ -86590,6 +87972,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2049637268
 GameObject:
   m_ObjectHideFlags: 0
@@ -86820,6 +88205,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2057327445
 GameObject:
   m_ObjectHideFlags: 0
@@ -86992,6 +88380,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2060856491
 GameObject:
   m_ObjectHideFlags: 0
@@ -87069,6 +88460,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2062472431
 GameObject:
   m_ObjectHideFlags: 0
@@ -87179,6 +88573,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2065613107
 GameObject:
   m_ObjectHideFlags: 0
@@ -87225,6 +88622,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 3655020970500330471, guid: 5196ce1346f8f454bacfca1127c2a191, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2067591194
 GameObject:
   m_ObjectHideFlags: 0
@@ -87271,6 +88671,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2067841907
 GameObject:
   m_ObjectHideFlags: 0
@@ -87317,6 +88720,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2068557908
 GameObject:
   m_ObjectHideFlags: 0
@@ -87489,6 +88895,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2071618196
 GameObject:
   m_ObjectHideFlags: 0
@@ -87659,6 +89068,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2074200088
 GameObject:
   m_ObjectHideFlags: 0
@@ -87920,6 +89332,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 3655020970500330471, guid: 5196ce1346f8f454bacfca1127c2a191, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2077832351
 GameObject:
   m_ObjectHideFlags: 0
@@ -88180,6 +89595,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 1000621414692272, guid: 449acd8ae9a558046b5ded95df2295d3, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2079923744
 GameObject:
   m_ObjectHideFlags: 0
@@ -88318,6 +89736,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2081749595
 GameObject:
   m_ObjectHideFlags: 0
@@ -88611,6 +90032,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2085999628
 GameObject:
   m_ObjectHideFlags: 0
@@ -88964,6 +90388,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2090014407
 GameObject:
   m_ObjectHideFlags: 0
@@ -89255,6 +90682,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2098424367
 GameObject:
   m_ObjectHideFlags: 0
@@ -89547,6 +90977,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2108389991
 GameObject:
   m_ObjectHideFlags: 0
@@ -90149,6 +91582,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2125082811
 GameObject:
   m_ObjectHideFlags: 0
@@ -90410,6 +91846,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2129886820
 GameObject:
   m_ObjectHideFlags: 0
@@ -90456,6 +91895,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2131628212
 GameObject:
   m_ObjectHideFlags: 0
@@ -90971,6 +92413,7 @@ MonoBehaviour:
   - {fileID: 1928261000}
   - {fileID: 1359338042}
   following: 0
+  transitioning: 0
   searchCone: {fileID: 0}
   anim: {fileID: 633264619}
   audioSourceIdle: {fileID: 2132953684}
@@ -91656,6 +93099,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 44924060066251274, guid: 854e72684859d2c47bd22cef358342fc, type: 3}
+  isEntrance: 0
+  r: {x: 0, y: 0, z: 0}
+  entranceRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &2141723148
 GameObject:
   m_ObjectHideFlags: 0

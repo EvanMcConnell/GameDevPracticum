@@ -2681,7 +2681,7 @@ GameObject:
   - component: {fileID: 3560088801342589719}
   m_Layer: 0
   m_Name: Open Trigger
-  m_TagString: Shop Exit
+  m_TagString: Shop Entrance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

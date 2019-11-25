@@ -109,7 +109,7 @@ public class PlayerMovement : MonoBehaviour
             greenCubes[score - 1].gameObject.SetActive(true);
 
             GameObject.Find("Score Text").GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
-            if (score == 9)
+            if (score % 9 == 0)
             {
                 exitOpen = true;
                 //greenCubesContainer.SetActive(false);
@@ -130,6 +130,7 @@ public class PlayerMovement : MonoBehaviour
         //Shop Entrance Trigger
         if (hit.gameObject.tag == "Shop Entrance")
         {
+            hit.GetComponent<BoxCollider>().enabled = false;
             hit.gameObject.GetComponentInParent<Animator>().SetBool("Open", false);
             hit.gameObject.GetComponentInParent<Animator>().SetBool("Close", true);
 
@@ -186,6 +187,7 @@ public class PlayerMovement : MonoBehaviour
         if(hit.gameObject.tag == "Exit" && exitOpen == true)
         {
             hit.GetComponent<BoxCollider>().enabled = false;
+            
             print("exit hitted");
             PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
             GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Open", true);
@@ -203,6 +205,7 @@ public class PlayerMovement : MonoBehaviour
             if(nextLevelSpawned == false) { 
                 nextLevel = Instantiate(LevelSpawner, GameObject.FindGameObjectWithTag("Next Level Spawn Point").transform); nextLevelSpawned = true;
                 nextLevel.transform.SetParent(null);
+                hit.transform.parent.SetParent(nextLevel.transform);
             }
         }
 
