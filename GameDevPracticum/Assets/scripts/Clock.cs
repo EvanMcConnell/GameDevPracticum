@@ -11,9 +11,9 @@ public class Clock : MonoBehaviour {
     float timeLimit = 120;
     float time = 3f;
     string seconds, minutes;
-    GameObject[] walls = null;
+    public GameObject[] walls = null, enemies;
     NavMeshSurface nm;
-    bool wallsDropped = false;
+    public bool wallsDropped = false;
     void Start () {
         nm = GameObject.FindGameObjectWithTag("NavMesh").GetComponent<NavMeshSurface>();
     }
@@ -51,6 +51,23 @@ public class Clock : MonoBehaviour {
             print("waiting to build navmesh after wall drop");
             yield return new WaitForSecondsRealtime(10f);
             nm.BuildNavMesh();
+            enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+            foreach(GameObject n in enemies)
+            {
+                n.gameObject.GetComponentInParent<EnemyMovement>().transitioning = true;
+                Animator enemyAnim = n.gameObject.GetComponentInParent<EnemyMovement>().anim;
+                n.gameObject.GetComponentInParent<NavMeshAgent>().speed = 0;
+                n.gameObject.GetComponentInParent<Light>().color = Color.red;
+                enemyAnim.SetBool("isDropping", true);
+                yield return new WaitForSecondsRealtime((float)2.9);
+                enemyAnim.SetBool("isFollowing", true);
+                enemyAnim.SetBool("isDropping", false);
+                n.gameObject.GetComponentInParent<EnemyMovement>().following = true;
+                n.gameObject.GetComponentInParent<NavMeshAgent>().speed = 5;
+                n.gameObject.GetComponentInParent<EnemyMovement>().transitioning = false;
+            }
+
             print("built navmesh after wall drop");
         }
     }

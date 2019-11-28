@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     bool exitOpen = false;
     public AudioClip idle, dying, chasing;
     public GameObject[] redCubes, greenCubes, activeLives, deadLives;
-    public GameObject greenCubesContainer, exitText, LevelSpawner, NPCSprite;
+    public GameObject greenCubesContainer, exitText, LevelSpawner, NPCSprite, clock;
     string scoreText;
     public Animator entranceDoorAnim;
     public bool firstEntranceSpawned = false, nextLevelSpawned = false, isWithNPC = false;
@@ -88,6 +88,24 @@ public class PlayerMovement : MonoBehaviour
         enemyAnim.SetBool("isReset", false);
         n.gameObject.GetComponentInChildren<SphereCollider>().enabled = true;
         
+
+        if(clock.GetComponent<Clock>().wallsDropped == true)
+        {
+            foreach(GameObject x in clock.GetComponent<Clock>().enemies)
+            {
+                x.gameObject.GetComponentInParent<EnemyMovement>().transitioning = true;
+                enemyAnim = x.gameObject.GetComponentInParent<EnemyMovement>().anim;
+                x.gameObject.GetComponentInParent<NavMeshAgent>().speed = 0;
+                x.gameObject.GetComponentInParent<Light>().color = Color.red;
+                enemyAnim.SetBool("isDropping", true);
+                yield return new WaitForSecondsRealtime((float)2.9);
+                enemyAnim.SetBool("isFollowing", true);
+                enemyAnim.SetBool("isDropping", false);
+                x.gameObject.GetComponentInParent<EnemyMovement>().following = true;
+                x.gameObject.GetComponentInParent<NavMeshAgent>().speed = 5;
+                x.gameObject.GetComponentInParent<EnemyMovement>().transitioning = false;
+            }
+        }
     }
 
     void OnTriggerEnter(Collider hit)

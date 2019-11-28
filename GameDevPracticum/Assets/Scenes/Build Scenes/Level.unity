@@ -718,6 +718,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f40d276a260088545a709289d5f8791a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walls: []
+  enemies: []
+  wallsDropped: 0
 --- !u!114 &327248591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1390,6 +1393,11 @@ PrefabInstance:
       propertyPath: LevelSpawner
       value: 
       objectReference: {fileID: 1714213338}
+    - target: {fileID: 7867176913795296883, guid: f316778a6795fc548b5e557ceaff27d3,
+        type: 3}
+      propertyPath: clock
+      value: 
+      objectReference: {fileID: 327248588}
     - target: {fileID: 7867176913795296882, guid: f316778a6795fc548b5e557ceaff27d3,
         type: 3}
       propertyPath: m_Constraints
