@@ -28,6 +28,7 @@ TagManager:
   - HUD
   - Dialogue Prompt
   - Shop Entrance
+  - Wall Dropper
   layers:
   - Default
   - TransparentFX

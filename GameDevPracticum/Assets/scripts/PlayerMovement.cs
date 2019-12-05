@@ -85,13 +85,15 @@ public class PlayerMovement : MonoBehaviour
         n.gameObject.GetComponentInChildren<SphereCollider>().enabled = false;
 
         yield return new WaitForSecondsRealtime(2);
+        
         enemyAnim.SetBool("isReset", false);
         n.gameObject.GetComponentInChildren<SphereCollider>().enabled = true;
-        
 
-        if(clock.GetComponent<Clock>().wallsDropped == true)
+        print("After waiting Wallse Dropped: " + clock.GetComponent<Clock>().wallsDropped);
+        if (clock.GetComponent<Clock>().wallsDropped == true)
         {
-            foreach(GameObject x in clock.GetComponent<Clock>().enemies)
+            
+            foreach (GameObject x in clock.GetComponent<Clock>().enemies)
             {
                 x.gameObject.GetComponentInParent<EnemyMovement>().transitioning = true;
                 enemyAnim = x.gameObject.GetComponentInParent<EnemyMovement>().anim;
@@ -105,6 +107,10 @@ public class PlayerMovement : MonoBehaviour
                 x.gameObject.GetComponentInParent<NavMeshAgent>().speed = 5;
                 x.gameObject.GetComponentInParent<EnemyMovement>().transitioning = false;
             }
+
+            print("Wall Dropper Found");
+            GameObject.FindGameObjectWithTag("Wall Dropper").GetComponent<WallDropper>().findWalls();
+            GameObject.FindGameObjectWithTag("Wall Dropper").GetComponent<WallDropper>().dropWalls();
         }
     }
 
