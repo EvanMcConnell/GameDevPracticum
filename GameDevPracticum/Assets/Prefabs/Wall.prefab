@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6826577951867320309}
   - component: {fileID: 3443626368889492710}
   - component: {fileID: 4743702965322464358}
-  - component: {fileID: 3343471349231974889}
+  - component: {fileID: 8591299410672967545}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Inner Wall
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44924060066251274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.925, z: 0}
+  m_LocalPosition: {x: 5.702921, y: -0.49577034, z: 5.2460294}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -93,7 +93,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!95 &3343471349231974889
+--- !u!95 &8591299410672967545
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

@@ -35,7 +35,7 @@ public class Clock : MonoBehaviour {
 
         if (time <= 0 && wallsDropped == false)
         {
-            if(walls == null) { walls = GameObject.FindGameObjectsWithTag("Inner Wall"); }
+            if(walls.Length == 0) { walls = GameObject.FindGameObjectsWithTag("Inner Wall"); }
             GameObject.Find("Timer Text").GetComponent<TMPro.TextMeshProUGUI>().text = "Run";
             foreach (GameObject n in walls)
             {

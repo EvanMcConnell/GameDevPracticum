@@ -29,6 +29,7 @@ TagManager:
   - Dialogue Prompt
   - Shop Entrance
   - Wall Dropper
+  - Room Spawn
   layers:
   - Default
   - TransparentFX

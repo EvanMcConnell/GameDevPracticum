@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     {
         lives = 3;
         print(lives);
-        score = 8;
+        score = 0;
         scoreText = GameObject.Find("Score Text").GetComponent<TMPro.TextMeshProUGUI>().text;
         scoreText = score.ToString();
         StartCoroutine(WaitForLevel());
@@ -203,6 +203,8 @@ public class PlayerMovement : MonoBehaviour
 
                 lives--;
                 print(lives);
+
+                exitOpen = false;
             }
         }
 
