@@ -11,13 +11,12 @@ public class PlayerMovement : MonoBehaviour
     public Camera cam;
     Vector3 lookTarget = Vector3.forward;
     GameObject CollidedObject, entrance, nextLevel;
-    bool exitOpen = false;
     public AudioClip idle, dying, chasing;
     public GameObject[] redCubes, greenCubes, activeLives, deadLives;
     public GameObject greenCubesContainer, exitText, LevelSpawner, NPCSprite, clock;
     string scoreText;
     public Animator entranceDoorAnim;
-    public bool firstEntranceSpawned = false, nextLevelSpawned = false, isWithNPC = false;
+    public bool firstEntranceSpawned = false, nextLevelSpawned = false, isWithNPC = false, exitOpen = false;
     public int nextLevelSpawnPointChoice;
     public SpriteRenderer thisDialoguePrompt;
 
@@ -42,6 +41,10 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator WaitForLevel()
     {
         yield return new WaitForSecondsRealtime((float)0.4);
+        NPCSprite.GetComponent<NPCHandler>().npcText.text = "Hey kid, there's some yellow glowy cube things in the next room that look kinda neat. Why don't you go get em all n bring em back to me. thanks kid! oh and by the way, if you're not done within the next 2 minutes, you'll regret it!!";
+        NPCSprite.GetComponent<NPCHandler>().npcText.enabled = true;
+        NPCSprite.GetComponent<SpriteRenderer>().enabled = true;
+        NPCSprite.GetComponent<AudioSource>().enabled = true;
         entrance = GameObject.FindGameObjectWithTag("Level").GetComponent<LevelSpawner>().entrance;
         firstEntranceSpawned = true;
     }
@@ -84,7 +87,11 @@ public class PlayerMovement : MonoBehaviour
 
         n.gameObject.GetComponentInChildren<SphereCollider>().enabled = false;
 
-        yield return new WaitForSecondsRealtime(2);
+        yield return new WaitForSecondsRealtime(0.1f);
+        NPCSprite.GetComponent<NPCHandler>().npcText.enabled = true;
+        NPCSprite.GetComponent<SpriteRenderer>().enabled = true;
+        NPCSprite.GetComponent<AudioSource>().enabled = true;
+        yield return new WaitForSecondsRealtime(1.9f);
         
         enemyAnim.SetBool("isReset", false);
         n.gameObject.GetComponentInChildren<SphereCollider>().enabled = true;
@@ -137,7 +144,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 exitOpen = true;
                 //greenCubesContainer.SetActive(false);
-                exitText.SetActive(true);
+                //exitText.SetActive(true);
 
             }
         }
@@ -148,6 +155,12 @@ public class PlayerMovement : MonoBehaviour
         {
             hit.gameObject.GetComponentInParent<Animator>().SetBool("Close", false);
             hit.gameObject.GetComponentInParent<Animator>().SetBool("Open", true);
+
+            if(exitOpen == true)
+            {
+            hit.gameObject.GetComponentInParent<Animator>().SetBool("Close", true);
+            hit.gameObject.GetComponentInParent<Animator>().SetBool("Open", false);
+            }
         }
 
 
@@ -158,7 +171,8 @@ public class PlayerMovement : MonoBehaviour
             hit.gameObject.GetComponentInParent<Animator>().SetBool("Open", false);
             hit.gameObject.GetComponentInParent<Animator>().SetBool("Close", true);
 
-            Destroy(GameObject.FindGameObjectWithTag("Trash"));
+
+            //Destroy(GameObject.FindGameObjectWithTag("Trash"));
         }
 
 
@@ -180,7 +194,9 @@ public class PlayerMovement : MonoBehaviour
                 }
 
                 print("no of enemies: " + i);
-                this.transform.position = entrance.transform.position;
+                this.transform.position = GameObject.FindGameObjectWithTag("Respawn").transform.position;
+                NPCSprite.GetComponent<NPCHandler>().npcText.text = "Hey kid, way to go you managed to get " + score + " of them box things before dying. Maybe try not dying until you get em all this time, good luck!!";
+                
 
                 activeLives[lives - 1].SetActive(false);
                 deadLives[lives - 1].SetActive(true);
@@ -208,7 +224,7 @@ public class PlayerMovement : MonoBehaviour
 
 
         //Exit Trigger
-        if(hit.gameObject.tag == "Exit" && exitOpen == true)
+        /*if(hit.gameObject.tag == "Entrance" && exitOpen == true)
         {
             hit.GetComponent<BoxCollider>().enabled = false;
             
@@ -224,22 +240,33 @@ public class PlayerMovement : MonoBehaviour
                 n.GetComponent<Animator>().SetBool("Close", false);
             }
 
-            //SceneManager.LoadScene("Level End Scene");
-            nextLevelSpawnPointChoice = 0;
+            SceneManager.LoadScene("Level End Scene");
+            /*nextLevelSpawnPointChoice = 0;
             if(nextLevelSpawned == false) { 
                 nextLevel = Instantiate(LevelSpawner, GameObject.FindGameObjectWithTag("Next Level Spawn Point").transform); nextLevelSpawned = true;
                 nextLevel.transform.SetParent(null);
                 hit.transform.parent.SetParent(nextLevel.transform);
             }
-        }
+        }*/
 
 
         //Entrance Trigger
         if (hit.gameObject.tag == "Entrance")
         {
             print("entrance");
-            GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Close", true);
-            GameObject.FindGameObjectWithTag("Entrance Door").GetComponent<Animator>().SetBool("Open", false);
+
+            GameObject.FindGameObjectWithTag("Shop Exit").GetComponent<BoxCollider>().enabled = true;
+            //GameObject.FindGameObjectWithTag("Shop Exit").gameObject.GetComponentInParent<Animator>().SetBool("Open", true);
+            //GameObject.FindGameObjectWithTag("Shop Exit").gameObject.GetComponentInParent<Animator>().SetBool("Close", false);
+
+            GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Close", true);
+            GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Open", false);
+
+            if (exitOpen == true)
+            {
+                GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Close", false);
+                GameObject.FindGameObjectWithTag("Exit Door").GetComponent<Animator>().SetBool("Open", true);
+            }
         }
     }
 

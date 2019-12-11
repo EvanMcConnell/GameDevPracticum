@@ -11,6 +11,7 @@ public class NPCHandler : MonoBehaviour
     public TextMeshProUGUI npcText;
     public bool nearPlayer;
     public SpriteRenderer dialoguePrompt;
+    public AudioSource npcAudio;
 
     int phraseChoice;
 
@@ -39,6 +40,7 @@ public class NPCHandler : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 gameObject.GetComponent<SpriteRenderer>().enabled = !gameObject.GetComponent<SpriteRenderer>().enabled;
+                gameObject.GetComponent<AudioSource>().enabled = !gameObject.GetComponent<AudioSource>().enabled;
                 /*if (npcText.enabled == true) { npcText.enabled = false; }
                 else { npcText.enabled = false; }*/
                 npcText.enabled = !npcText.enabled;
@@ -49,12 +51,23 @@ public class NPCHandler : MonoBehaviour
                     npcText.text = phrases[phraseChoice];
                 }
 
+                if(player.GetComponent<PlayerMovement>().score % 9 ==0 && player.GetComponent<PlayerMovement>().score != 0)
+                {
+                    npcText.text = "Thanks kid, but you're not done yet. There's more boxes out there now so you know what to do. so quite slackin and get to work!!";
+                    foreach(GameObject n in GameObject.FindGameObjectsWithTag("Room Spawn"))
+                    {
+                        n.GetComponent<SpawnObject>().refresh();
+                        player.GetComponent<PlayerMovement>().exitOpen = false;
+                    }
+                }
+
                 foreach(GameObject n in hud) { n.SetActive(false); }
             }
         }
         else {
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
             npcText.enabled = false;
+            gameObject.GetComponent<AudioSource>().enabled = false;
             foreach (GameObject n in hud) { n.SetActive(true); }
             dialoguePrompt.enabled = false;
         }

@@ -9,9 +9,10 @@ public class Clock : MonoBehaviour {
 
     // Use this for initialization
     float timeLimit = 120;
-    float time = 3f;
+    float time = 120f;
     string seconds, minutes;
     public GameObject[] walls = null, enemies;
+    public GameObject player;
     NavMeshSurface nm;
     public bool wallsDropped = false;
     void Start () {
@@ -20,7 +21,7 @@ public class Clock : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if(time > 0) {
+        if(time > 0 && player.GetComponent<PlayerMovement>().isWithNPC != true) {
         time -= Time.deltaTime;
         //print(time);
         seconds = (time % 120).ToString("f2");

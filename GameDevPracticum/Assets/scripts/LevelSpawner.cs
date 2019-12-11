@@ -49,12 +49,12 @@ public class LevelSpawner : MonoBehaviour
                 n.tag = "Untagged";
             }
 
-            player.transform.position = entrance.transform.position;
+            player.transform.position = GameObject.FindGameObjectWithTag("Respawn").transform.position;
 
             current = doorSpots[exitChoice];
             current.tag = "Next Shop";
             exitRotation = current.GetComponent<SpawnObject>().r;
-            exit = Instantiate(doors[2], current.transform.position, Quaternion.Euler(exitRotation));
+            exit = Instantiate(doors[0], current.transform.position, Quaternion.Euler(exitRotation));
             exit.transform.parent = transform;
             doorSpots.RemoveAt(exitChoice);
 
@@ -71,7 +71,7 @@ public class LevelSpawner : MonoBehaviour
 
 
 
-        //If this is a
+        //If this is a sequential level
         else
         {
             print("spawned second level");
@@ -99,7 +99,7 @@ public class LevelSpawner : MonoBehaviour
             current.tag = "Entrance Point";
             current.name = "Next Entrance";
             entranceRotation = current.GetComponent<SpawnObject>().r;
-            entrance = Instantiate(doors[1], current.transform.position, Quaternion.Euler(entranceRotation));
+            //entrance = Instantiate(doors[1], current.transform.position, Quaternion.Euler(entranceRotation));
             entrance.transform.parent = transform;
             doorSpots.RemoveAt(entranceChoice);
 

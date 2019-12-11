@@ -720,6 +720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walls: []
   enemies: []
+  player: {fileID: 675587480}
   wallsDropped: 0
 --- !u!114 &327248591
 MonoBehaviour:
@@ -1398,6 +1399,11 @@ PrefabInstance:
       propertyPath: clock
       value: 
       objectReference: {fileID: 327248588}
+    - target: {fileID: 7867176913795296883, guid: f316778a6795fc548b5e557ceaff27d3,
+        type: 3}
+      propertyPath: NPCSprite
+      value: 
+      objectReference: {fileID: 1218254890}
     - target: {fileID: 7867176913795296882, guid: f316778a6795fc548b5e557ceaff27d3,
         type: 3}
       propertyPath: m_Constraints
@@ -3689,6 +3695,7 @@ MonoBehaviour:
   npcText: {fileID: 0}
   nearPlayer: 0
   dialoguePrompt: {fileID: 0}
+  npcAudio: {fileID: 0}
 --- !u!111 &1218254895
 Animation:
   m_ObjectHideFlags: 0
